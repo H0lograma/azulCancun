@@ -1,0 +1,19 @@
+{% extends "plantilla.twig" %}
+
+{% block contenido %}
+    <div class="container-fluid">
+        <div class="row sliderContacto">
+            <div class="col-sm-12 paddingIzqCero paddingDerCero">
+                <img src="{{ asset('imagenes/pleca-azul.png') }}" class="img-responsive">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2 col-sm-offset-1">
+                <img src="{{ asset('imagenes/icono-azul-cancun.png') }}" class="img-responsive">
+            </div>
+            <div class="col-sm-9 filaContactTitulo">
+                <span class="letraTitulo">{{ 'menu5' | trans }}</span>
+            </div>
+        </div>
+    </div>
+{% endblock %}

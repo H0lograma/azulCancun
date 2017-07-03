@@ -1,0 +1,419 @@
+{% extends "plantilla.twig" %}
+
+{% block liksPropios %}
+    <link href="{{ asset('css/ihover.css') }}" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+{% endblock %}
+{% block contenido %}
+
+    <div class="container-fluid">
+        <div class="row sliderPrin">
+            <div class="col-sm-12 paddingIzqCero paddingDerCero sombraCaja">
+                <img src="{{ asset('imagenes/home-slide.jpg') }}" class="img-responsive">
+            </div>
+        </div>
+        <div class="row fondoInicio2 cuadroFormBuscarInicio">
+            <div class="col-sm-8 col-sm-offset-2">
+                <form class="letraBlanca">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="form-group">
+                                <label for="destino">{{ 'destino' | trans }}</label>
+                                <input type="text" class="form-control inputDestino inputsDeBusqueda" id="destino" name="destino" placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label for="llegada">{{ 'llegada' | trans }}</label>
+                                <input type="text" class="form-control inputCheckin" id="llegada" name="llegada" placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label for="cuartos">{{ 'cuartos' | trans }}</label>
+                                <input type="text" class="form-control inputRoom" id="cuartos" name="cuartos" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label for="adultos">{{ 'adultos' | trans }}</label>
+                                <input type="text" class="form-control inputAdult" id="adultos" name="adultos" placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label for="ninos">{{ 'ninos' | trans }}</label>
+                                <input type="text" class="form-control inputChild" id="ninos" name="ninos" placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-sm-offset-3">
+                            <button type="submit" class="btn botonEncuentralos">{{ 'encuentralos' | trans }}</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row fondoInicio3 cuadroNosotros text-justify">
+            <div class="col-sm-8 col-sm-offset-2">
+                <span class="letraSubtitulo">{{ 'indexTitulo1' | trans }}</span>
+                <p>{{ 'indexCont1' | trans }}</p>
+            </div>
+        </div>
+        <div class="row fondoAzul filaIconoServicio sombraCajaArriba">
+            <div class="col-sm-2 col-sm-offset-2">
+                <img src="{{ asset('imagenes/home-icon-01.png') }}" class="img-responsive center-block">
+            </div>
+            <div class="col-sm-2">
+                <img src="{{ asset('imagenes/home-icon-02.png') }}" class="img-responsive center-block">
+            </div>
+            <div class="col-sm-2">
+                <img src="{{ asset('imagenes/home-icon-03.png') }}" class="img-responsive center-block">
+            </div>
+            <div class="col-sm-2">
+                <img src="{{ asset('imagenes/home-icon-04.png') }}" class="img-responsive center-block">
+            </div>
+        </div>
+        <div class="row fondoInicio4 filaServiciosTexto sombraCaja">
+            <div class="col-sm-2 col-sm-offset-2 bordeServicioIzq cuadroServicio text-center">
+                <span>{{ 'tituloServ1' | trans }}</span>
+                <p class="letraServiciosCont">{{ 'descripServ1' | trans }}</p>
+            </div>
+            <div class="col-sm-2 bordeServicioIzq cuadroServicio text-center">
+                <span>{{ 'tituloServ2' | trans }}</span>
+                <p class="letraServiciosCont">{{ 'descripServ2' | trans }}</p>
+            </div>
+            <div class="col-sm-2 bordeServicioIzq cuadroServicio text-center">
+                <span>{{ 'tituloServ3' | trans }}</span>
+                <p class="letraServiciosCont">{{ 'descripServ3' | trans }}</p>
+            </div>
+            <div class="col-sm-2 bordeServicioIzq bordeServicioDer cuadroServicio text-center">
+                <span>{{ 'tituloServ4' | trans }}</span>
+                <p class="letraServiciosCont">{{ 'descripServ4' | trans }}</p>
+            </div>
+        </div>
+        <div class="row fondoNaranja filaTituloDest sombraCajaArribaInt">
+            <div class="col-sm-1 col-sm-offset-3">
+                <img src="{{ asset('imagenes/icono-azul-cancun-blanco.png') }}" class="img-responsive">
+            </div>
+            <div class="col-sm-8 letraTituloDest letraBlanca letraSubFila">
+                {{ 'indexTitulo2' | trans }}
+            </div>
+        </div>
+        <div class="row filaCuadrosDestinos">
+            <div class="col-sm-6 col-md-4 col-lg-3 paddingDerCero paddingIzqCero">
+                <div class="ih-item colored square effect6 bottom_to_top">
+                    <a id="cuadro1" href="cancun">
+                        <div class="img">
+                            <!--<div id="titulo1" class="tituloPrincipio letraBlanca escondeTexto">DESTINO 1</div>-->
+                            <img src="{{ asset('imagenes/home-destino-01.jpg') }}" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="bordeCuadradoDest">
+                                <h3 class="tituloHover">Destino 1</h3>
+                            </div>
+                            <!--<p class="text-center letrasTitulDest">
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-default botonVerDestino">Ver más
+                                </button>
+                            </p>
+                            -->
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 paddingDerCero paddingIzqCero">
+                <div class="ih-item colored square effect6 bottom_to_top">
+                    <a id="cuadro2" href="riviera-maya">
+                        <div class="img">
+                            <img src="{{ asset('imagenes/home-destino-02.jpg') }}" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="bordeCuadradoDest">
+                                <h3 class="tituloHover">Destino 2</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 paddingDerCero paddingIzqCero">
+                <div class="ih-item colored square effect6 bottom_to_top">
+                    <a id="cuadro3" href="holbox">
+                        <div class="img">
+                            <img src="{{ asset('imagenes/home-destino-03.jpg') }}" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="bordeCuadradoDest">
+                                <h3 class="tituloHover">Destino 3</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 paddingDerCero paddingIzqCero">
+                <div class="ih-item colored square effect6 bottom_to_top">
+                    <a id="cuadro4" href="cozumel">
+                        <div class="img">
+                            <img src="{{ asset('imagenes/home-destino-04.jpg') }}" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="bordeCuadradoDest">
+                                <h3 class="tituloHover">Destino 4</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 paddingDerCero paddingIzqCero">
+                <div class="ih-item colored square effect6 bottom_to_top">
+                    <a id="cuadro5" href="cancun">
+                        <div class="img">
+                            <img src="{{ asset('imagenes/home-destino-05.jpg') }}" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="bordeCuadradoDest">
+                                <h3 class="tituloHover">Destino 5</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 paddingDerCero paddingIzqCero">
+                <div class="ih-item colored square effect6 bottom_to_top">
+                    <a id="cuadr6" href="riviera-maya">
+                        <div class="img">
+                            <img src="{{ asset('imagenes/home-destino-06.jpg') }}" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="bordeCuadradoDest">
+                                <h3 class="tituloHover">Destino 6</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 paddingDerCero paddingIzqCero">
+                <div class="ih-item colored square effect6 bottom_to_top">
+                    <a id="cuadro7" href="holbox">
+                        <div class="img">
+                            <img src="{{ asset('imagenes/home-destino-07.jpg') }}" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="bordeCuadradoDest">
+                                <h3 class="tituloHover">Destino 7</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 paddingDerCero paddingIzqCero">
+                <div class="ih-item colored square effect6 bottom_to_top">
+                    <a id="cuadro8" href="cozumel">
+                        <div class="img">
+                            <img src="{{ asset('imagenes/home-destino-08.jpg') }}" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="bordeCuadradoDest">
+                                <h3 class="tituloHover">Destino 8</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row fondoNaranja filaTituloDest sombraCajaArribaInt">
+            <div class="col-sm-1 col-sm-offset-3">
+                <img src="{{ asset('imagenes/icono-azul-cancun-blanco.png') }}" class="img-responsive">
+            </div>
+            <div class="col-sm-8 letraTituloDest letraBlanca letraSubFila">
+                {{ 'indexTitulo3' | trans }}
+            </div>
+        </div>
+        <div class="row filaCuadrosDestinos">
+            <div class="col-sm-6 col-md-4 col-lg-3 paddingDerCero paddingIzqCero">
+                <div class="ih-item colored square effect6 bottom_to_top">
+                    <a id="tour1" href="cancun">
+                        <div class="img">
+                            <img src="{{ asset('imagenes/home-tour-01.jpg') }}" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="bordeCuadradoDest">
+                                <h3 class="tituloHover">Tour 1</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 paddingDerCero paddingIzqCero">
+                <div class="ih-item colored square effect6 bottom_to_top">
+                    <a id="tour2" href="riviera-maya">
+                        <div class="img">
+                            <img src="{{ asset('imagenes/home-tour-02.jpg') }}" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="bordeCuadradoDest">
+                                <h3 class="tituloHover">Tour 2</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 paddingDerCero paddingIzqCero">
+                <div class="ih-item colored square effect6 bottom_to_top">
+                    <a id="tour3" href="holbox">
+                        <div class="img">
+                            <img src="{{ asset('imagenes/home-tour-03.jpg') }}" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="bordeCuadradoDest">
+                                <h3 class="tituloHover">Tour 3</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 paddingDerCero paddingIzqCero">
+                <div class="ih-item colored square effect6 bottom_to_top">
+                    <a id="tour4" href="cozumel">
+                        <div class="img">
+                            <img src="{{ asset('imagenes/home-tour-04.jpg') }}" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="bordeCuadradoDest">
+                                <h3 class="tituloHover">Tour 4</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 paddingDerCero paddingIzqCero">
+                <div class="ih-item colored square effect6 bottom_to_top">
+                    <a id="tour5" href="cancun">
+                        <div class="img">
+                            <img src="{{ asset('imagenes/home-tour-05.jpg') }}" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="bordeCuadradoDest">
+                                <h3 class="tituloHover">Tour 5</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 paddingDerCero paddingIzqCero">
+                <div class="ih-item colored square effect6 bottom_to_top">
+                    <a id="tour6" href="riviera-maya">
+                        <div class="img">
+                            <img src="{{ asset('imagenes/home-tour-06.jpg') }}" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="bordeCuadradoDest">
+                                <h3 class="tituloHover">Tour 6</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 paddingDerCero paddingIzqCero">
+                <div class="ih-item colored square effect6 bottom_to_top">
+                    <a id="tour7" href="holbox">
+                        <div class="img">
+                            <img src="{{ asset('imagenes/home-tour-07.jpg') }}" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="bordeCuadradoDest">
+                                <h3 class="tituloHover">Tour 7</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 paddingDerCero paddingIzqCero">
+                <div class="ih-item colored square effect6 bottom_to_top">
+                    <a id="tour8" href="cozumel">
+                        <div class="img">
+                            <img src="{{ asset('imagenes/home-tour-08.jpg') }}" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="bordeCuadradoDest">
+                                <h3 class="tituloHover">Tour 8</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="contadores" class="row fondoAmarillo letraBlanca filaContador">
+            <div class="col-sm-2 col-sm-offset-3 text-center">
+                <!--4898-->
+                <div id="demo1" class="textoA interLineaA">
+                    <div id="scoreDisplay1">0</div>
+                </div>
+                <span class="textB">{{ 'numerText1' | trans }}</span>
+            </div>
+            <div class="col-sm-2 text-center">
+                <!--546-->
+                <div id="demo2" class="textoA interLineaA">
+                    <div id="scoreDisplay2">0</div>
+                </div>
+                <span class="textB">{{ 'numerText2' | trans }}</span>
+            </div>
+            <div class="col-sm-2 text-center">
+                <!--100%-->
+                <div id="demo3" class="textoA interLineaA">
+                    <div id="scoreDisplay3">0%</div>
+                </div>
+                <span class="textB">{{ 'numerText3' | trans }}</span>
+            </div>
+        </div>
+        <div class="row fondoAmarillo filaContador2 sombraCajaAbajo">
+            <div class="col-sm-12">
+                <div class="flechaFigura center-block"></div>
+            </div>
+        </div>
+        <div class="row fondoInicio5 filaContact sombraCajaArribaInt2">
+            <div class="col-sm-8 col-sm-offset-2 text-justify fondoInfoServ filaContact2">
+                <span class="letraSubtitulo">{{ 'indexTitulo4' | trans }}</span>
+                <p class="">{{ 'indexCont4' | trans }}</p>
+            </div>
+
+        </div>
+        <div class="row fondoAmarillo filaTituloDest">
+            <div class="col-sm-12 text-center letraBlanca letraBlanca letraSubFila">
+                {{ 'indexTitulo5' | trans }}
+            </div>
+        </div>
+        <div class="row sombraCajaArribaInt2 filaFormulario fondoInicio5">
+            <div class="col-sm-4 col-sm-offset-6">
+                    <form role="form" id="frmcontacto" class="formularioContac">
+                        <div class="form-group">
+                            <!--<label for=""></label>-->
+                            <input type="text" class="form-control validacontacto" id="nombre" placeholder="{{ 'formCampo1' | trans }}">
+                        </div>
+                        <div class="form-group">
+                            <!--<label for=""></label>-->
+                            <input type="email" class="form-control" id="correo" placeholder="{{ 'formCampo3' | trans }}">
+                        </div>
+                        <div class="form-group">
+                            <!--<label for=""></label>-->
+                            <input type="text" class="form-control" id="telefono" placeholder="{{ 'formCampo2' | trans }}">
+                        </div>
+                        <div class="form-group">
+                            <!--<label for=""></label>-->
+                            <input type="text" class="form-control validacontacto" id="ciudad" placeholder="{{ 'formCampo4' | trans }}">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3" id="comentarios" placeholder="{{ 'formCampo5' | trans }}"></textarea>
+                        </div>
+                        <button type="submit" id="enviarFormulario" class="btn botonEncuentralos letraBlanca center-block"><b>{{ 'formEnviar' | trans }}</b></button>
+                    </form>
+            </div>
+        </div>
+
+    </div>
+
+{% endblock %}

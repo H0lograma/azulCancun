@@ -1,0 +1,59 @@
+variable1: hello
+menu1: Home
+menu2: About US
+menu3: Destinations
+menu4: Services
+menu5: Contact US
+lenguajeAct: ENG
+lenguaje1: ESP
+menuPie2: Terms of Use
+menuPie3: Trademarks
+menuPie4: Privacy Statement
+pieTexto1: Copyright © 2014 Azul Cancun Vacations. All Rights Reserved - Webmaster.
+pieTexto2:  Any total or partial reproduction of this content is prohibited whithout written authorization from the owner.
+pieTexto3: It is the responsibillity of the hotel chain and / or property to guarantee the accuracy of the photographs shown.
+pieTexto4:  We are not responsible for inaccuracies in the photographs.
+llamaSin: Call free:
+
+destino: Destination
+llegada: Checkin
+cuartos: Rooms
+adultos: Adult
+ninos: Child (1-17)
+encuentralos: Find Them
+
+indexTitulo1: Real Vacation Experts
+indexCont1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id accumsan odio. Suspendisse potenti. Aliquam et enim egestas ante efficitur volutpat sit amet in odio. Mauris metus urna, rutrum in
+            orci quis, elementum efficitur magna. Cras vitae placerat ligula. Quisque ex eros, accumsan ac nisl at, tempus hendrerit lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+            cubilia Curae; Nullam ornare interdum urna sit amet egestas. Sed porttitor auctor lacinia.
+            Cras cursus condimentum magna, ut ornare metus fringilla ut. Praesent vitae mollis justo. Maecenas suscipit et lectus id scelerisque. Vivamus eget dui maximus, fringilla risus sit amet, egestas eros.
+            Morbi bibendum lacinia dui, lobortis commodo dui porta nec. Morbi maximus sed eros in porttitor. In hac habitasse platea dictumst. Nulla malesuada ante malesuada risus volutpat, quis sollicitudin nunc
+            vestibulum.
+
+tituloServ1: Explor
+descripServ1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+tituloServ2: Fall in love
+descripServ2: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+tituloServ3: Enjoy
+descripServ3: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+tituloServ4: Travel
+descripServ4: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+indexTitulo2: Choose your destination!
+indexTitulo3: Complement your experience!
+numerText1: Successful Searches
+numerText2: They already lived the experience
+numerText3: Satisfaction
+indexTitulo4: Fully customized service
+indexCont4: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id accumsan odio. Suspendisse potenti. Aliquam et enim egestas ante efficitur volutpat sit amet in odio. Mauris metus urna, rutrum in
+            orci quis, elementum efficitur magna. Cras vitae placerat ligula. Quisque ex eros, accumsan ac nisl at, tempus hendrerit lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+            cubilia Curae.
+indexTitulo5: Do you need more info?
+formCampo1: Name
+formCampo2: Phone
+formCampo3: E-mail
+formCampo4: City
+formCampo5: Comments
+formEnviar: Send
+
+
+

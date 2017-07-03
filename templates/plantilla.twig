@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Scrolling Nav - Start Bootstrap Template</title>
+    <meta name="Description" content="">
+    <meta name="keywords" content="">
+    {% include 'estructura/snipped-header.twig' %}
+    {% block liksPropios %}
+    {% endblock %}
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+{% include 'estructura/menu.twig' %}
+
+{% block contenido %}{% endblock %}
+
+{% include 'estructura/footer.twig' %}
+{% include 'estructura/query-bootstrap.twig' %}
+</body>
+</html>
