@@ -12,12 +12,13 @@ $app->get('/{_locale}', function () use ($app) {
     return $app['twig']->render('index.twig', array());
 })->bind('homepage');
 
-
 $app->get('/{_locale}/contacto', function () use ($app) {
     return $app['twig']->render('contacto.twig', array());
 })->bind('contacto');
 
-
+$app->get('/{_locale}/nosotros', function () use ($app) {
+    return $app['twig']->render('nosotros.twig', array());
+})->bind('nosotros');
 
 $app->error(function (\Exception $e, Request $request, $code) use ($app) {
     if ($app['debug']) {
