@@ -47,11 +47,20 @@ body{
 .letraAzul{
     color:#3e8ac3;
 }
+.letraGrisOscuro{
+    color: #181818;
+}
 .letraGrisClaro{
     color: #e5e3e4;
 }
+.letraGrisClaro2{
+    color: #a4a2a3;
+}
 .letraBlanca{
     color:#ffffff;
+}
+.letraGrisMedio{
+    color: #737373;
 }
 .fondoAzul{
     background-color: #3e8ac3;
@@ -61,6 +70,9 @@ body{
 }
 .fondoAmarillo{
     background-color: #e5e153;
+}
+.fondoGrisClaro{
+    background-color: #e5e3e4;
 }
 .paddingIzqCero{
     padding-left: 0px;
@@ -317,8 +329,38 @@ label{
     padding-bottom: 25px;
 }
 .sliderContacto{
-    background: url('../imagenes/contact-slide.jpg');
+    background: url('../imagenes/contact-slide.jpg') no-repeat;
+    height:600px;
+    background-size: cover;
+    background-position: bottom;
+}
+.imagenSliderContact{
+    position: absolute;
+    bottom: 0px;
+}
+.filaSliderContacto{
+    padding-top: 7%;
 }
 .filaContactTitulo{
     padding-top: 50px;
+}
+.linkTelContact:hover{
+    text-decoration: none;
+
+}
+#frmcontacto2 select{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+#frmcontacto2 input{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.filaLogoContact{
+    padding-top: 5%;
+}
+.filaTelFormContact{
+    padding-bottom: 5%;
 }

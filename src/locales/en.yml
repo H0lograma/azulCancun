@@ -48,12 +48,21 @@ indexCont4: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id
             orci quis, elementum efficitur magna. Cras vitae placerat ligula. Quisque ex eros, accumsan ac nisl at, tempus hendrerit lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
             cubilia Curae.
 indexTitulo5: Do you need more info?
-formCampo1: Name
+formCampo1: Full Name
 formCampo2: Phone
 formCampo3: E-mail
 formCampo4: City
 formCampo5: Comments
 formEnviar: Send
+
+contactMasInfo: More Information
+contactFree: Feel free to call us
+contactForm1: Department
+contactSelect1: Groups & Events
+contactSelect2: Vacation Planning
+contactSelect3: Weddings
+contactSelect4: Webmaster
+
 
 
 
