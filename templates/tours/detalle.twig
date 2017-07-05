@@ -1,0 +1,142 @@
+{% extends "plantilla.twig" %}
+{% block liksPropios %}
+    <link rel="stylesheet" type="text/css" href="{{ asset('scripts/slick/slick.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ asset('scripts/slick/slick-theme.css') }}"/>
+{% endblock %}
+{% block titulo %} Tour 1 {% endblock %}
+
+{% block contenido %}
+    <div class="container-fluid paddingPaginaPrin">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h2><b>Mayan Adventure</b></h2>
+            </div>
+        </div>
+        <div class="row cuadroImagenInfo">
+            <div class="col-sm-10 col-sm-offset-1 fondoAzul">
+                <div class="row">
+                    <div class="col-sm-7 paddingIzqCero paddingDerCero">
+                        <div class="galeriaCentral">
+                            <div><img src="https://unsplash.it/779/463/?image=0" class="img-responsive"></div>
+                            <div><img src="https://unsplash.it/779/463/?image=1" class="img-responsive"></div>
+                            <div><img src="https://unsplash.it/779/463/?image=2" class="img-responsive"></div>
+                            <div><img src="https://unsplash.it/779/463/?image=3" class="img-responsive"></div>
+                            <div><img src="https://unsplash.it/779/463/?image=4" class="img-responsive"></div>
+                            <div><img src="https://unsplash.it/779/463/?image=5" class="img-responsive"></div>
+                            <div><img src="https://unsplash.it/779/463/?image=6" class="img-responsive"></div>
+                        </div>
+                        <div class="galeriaLista">
+                            <div><img src="https://unsplash.it/779/463/?image=0" class="img-responsive"></div>
+                            <div><img src="https://unsplash.it/779/463/?image=1" class="img-responsive"></div>
+                            <div><img src="https://unsplash.it/779/463/?image=2" class="img-responsive"></div>
+                            <div><img src="https://unsplash.it/779/463/?image=3" class="img-responsive"></div>
+                            <div><img src="https://unsplash.it/779/463/?image=4" class="img-responsive"></div>
+                            <div><img src="https://unsplash.it/779/463/?image=5" class="img-responsive"></div>
+                            <div><img src="https://unsplash.it/779/463/?image=6" class="img-responsive"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 letraBlanca contInfoPack">
+                        <div class="row">
+                            <div class="col-sm-12 contParrafoPack">
+                                <h4 class="text-right"><b>About</b></h4>
+                                <p class="text-justify">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel
+                                    libero feugiat porta quis at massa.
+                                    Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Sed scelerisque
+                                    vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti.
+                                    Phasellus sit amet nisi sodales, bibendum velit in,
+                                    volutpat nisi.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 col-sm-offset-8">
+                                <button id="verMas" class="btn botonEncuentralos letraBlanca"><b>Request</b></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% set colorRectangulo = 'fondoNaranja' %}
+        {% set textoRectangulo = 'Includes' %}
+        {% include 'estructura/rectangulo-subtitulo.twig' %}
+
+        <div class="rorw filaIncluidoTours">
+            <div class="col-sm-2 col-sm-offset-2">
+                <b>
+                    <ul class="listHotel">
+                        <li>Food & Drinks</li>
+                        <li>Room Services 24 hours</li>
+                        <li>Restaurants</li>
+                        <li> Wireless Internet</li>
+                        <li>Massages</li>
+                    </ul>
+                </b>
+            </div>
+            <div class="col-sm-2">
+                <b>
+                    <ul class="listHotel">
+                        <li>Laundry</li>
+                        <li>Baby Sitter</li>
+                        <li>Concierge</li>
+                        <li>Kids club</li>
+                        <li>Dry Cleaning</li>
+                    </ul>
+                </b>
+            </div>
+            <div class="col-sm-2">
+                <b>
+                    <ul class="listHotel">
+                        <li>Food & Drinks</li>
+                        <li>Room Services 24 hours</li>
+                        <li>Restaurants</li>
+                        <li> Wireless Internet</li>
+                        <li>Massages</li>
+                    </ul>
+                </b>
+            </div>
+            <div class="col-sm-2">
+                <b>
+                    <ul class="listHotel">
+                        <li>Laundry</li>
+                        <li>Baby Sitter</li>
+                        <li>Concierge</li>
+                        <li>Kids club</li>
+                        <li>Dry Cleaning</li>
+                    </ul>
+                </b>
+            </div>
+
+        </div>
+
+    </div>
+{% endblock %}
+{% block scriptsPropio %}
+    <script type="text/javascript" src="{{ asset('scripts/slick/slick.min.js') }}"></script>
+    <script>
+        $(document).ready(function () {
+            $('.galeriaCentral').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                fade: true,
+                asNavFor: '.galeriaLista',
+                autoplay: true,
+                autoplaySpeed: 2000
+            });
+            $('.galeriaLista').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                asNavFor: '.galeriaCentral',
+                dots: false,
+                centerMode: true,
+                focusOnSelect: true,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 2000
+            });
+        });
+    </script>
+{% endblock %}

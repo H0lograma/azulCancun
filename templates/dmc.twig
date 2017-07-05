@@ -19,18 +19,11 @@
                 <p>{{ 'dmc.parrafo3' | trans }}</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-10 col-sm-offset-1">
-                <div class="row fondoAzul">
-                    <div class="col-sm-1 col-sm-offset-4">
-                        <img src="{{ asset('imagenes/icono-azul-cancun-blanco.png') }}" class="img-responsive iconoServWed">
-                    </div>
-                    <div class="col-sm-5">
-                        <h1 class="cuadroSubNos letraBlanca">{{ 'dmc.subtitulo1'|trans }}</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+        {% set colorRectangulo = 'fondoAzul' %}
+        {% set textoRectangulo = ('dmc.subtitulo1'|trans) %}
+        {% include 'estructura/rectangulo-subtitulo.twig' %}
+
         <div class="row filaListaNos letraGrisMedio">
             <div class="col-sm-8 col-sm-offset-2">
                 <ul class="listNos">

@@ -19,7 +19,12 @@ $app->get('/{_locale}/about-us', function () use ($app) {
 $app->get('/{_locale}/destinations', function () use ($app) {
     return $app['twig']->render('destinos.twig', array());
 })->bind('destinos');
-
+$app->get('/{_locale}/destinations/1', function () use ($app) {
+    return $app['twig']->render('destinos/destino.twig', array());
+})->bind('destino1');
+$app->get('/{_locale}/destinations/detalle', function () use ($app) {
+    return $app['twig']->render('destinos/detalle.twig', array());
+})->bind('detalledest');
 
 $app->get('/{_locale}/services', function () use ($app) {
     return $app['twig']->render('servicios.twig', array());
@@ -36,9 +41,17 @@ $app->get('/{_locale}/services/transportation', function () use ($app) {
 $app->get('/{_locale}/services/tours', function () use ($app) {
     return $app['twig']->render('tours/tours.twig', array());
 })->bind('tours');
+$app->get('/{_locale}/services/tours/detalle', function () use ($app) {
+    return $app['twig']->render('tours/detalle.twig', array());
+})->bind('detalletour');
+
 $app->get('/{_locale}/services/packages', function () use ($app) {
     return $app['twig']->render('packages/packages.twig', array());
 })->bind('packages');
+
+$app->get('/{_locale}/services/packages/detalle', function () use ($app) {
+    return $app['twig']->render('packages/detalle.twig', array());
+})->bind('detallepack');
 
 
 $app->get('/{_locale}/contact', function () use ($app) {

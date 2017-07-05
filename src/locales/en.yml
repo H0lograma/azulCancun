@@ -188,3 +188,34 @@ transp:
         5: Airport taxes
     parrafo6: "Transportation on a shared basis can be arranged upon request"
     formTitulo: More information
+
+paqueteOpc:
+    op1: Fligth
+    op2: Transportation
+    op3: Hotel
+    op4: Tour
+    boton: More
+
+paquete:
+    0:
+    1:
+        titulo: Package All Inclusive
+        texto: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+                Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+                vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+                volutpat nisi. Aliquam vel purus rutrum, pulvinar justo vel, vehicula turpis. Ut semper neque sit amet felis varius luctus.
+                Nulla at tortor justo. Fusce scelerisque in risus ut hendrerit.
+    2:
+        titulo: Package All Inclusive2
+        texto: Lorem2 ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+                Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+                vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+                volutpat nisi. Aliquam vel purus rutrum, pulvinar justo vel, vehicula turpis. Ut semper neque sit amet felis varius luctus.
+                Nulla at tortor justo. Fusce scelerisque in risus ut hendrerit.
+    3:
+        titulo: Package All Inclusive3
+        texto: Lorem3 ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+                Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+                vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+                volutpat nisi. Aliquam vel purus rutrum, pulvinar justo vel, vehicula turpis. Ut semper neque sit amet felis varius luctus.
+                Nulla at tortor justo. Fusce scelerisque in risus ut hendrerit.

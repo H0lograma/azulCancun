@@ -1,1 +1,25 @@
-soy tours
+{% extends "plantilla.twig" %}
+{% block titulo %} {{ 'menu.op4.4' | trans }} {% endblock %}
+
+{% block contenido %}
+    <div class="container-fluid">
+        <div class="row filaSliderContacto">
+            <div class="col-sm-12 paddingIzqCero paddingDerCero">
+                <img src="{{ asset('imagenes/tour-slide.jpg') }}" class="img-responsive">
+                <img src="{{ asset('imagenes/pleca-rojo.png') }}" class="img-responsive imagenSliderContact">
+            </div>
+        </div>
+    </div>
+    {% set tituloPagina = ('menu.op4.4' | trans) %}
+    {% include 'estructura/titulo.twig' %}
+    <div class="row letraGrisMedio cuadroParrafo">
+        <div class="col-sm-10 col-sm-offset-1">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet
+                nisi sodales, bibendum velit in, volutpat nisi. Aliquam vel purus rutrum, pulvinar justo vel, vehicula turpis. Ut semper neque sit amet felis varius luctus. Nulla at
+                tortor justo. Fusce scelerisque in risus ut hendrerit.
+            </p>
+        </div>
+    </div>
+{% endblock %}

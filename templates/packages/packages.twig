@@ -1,1 +1,56 @@
-soy paquetes
+{% extends "plantilla.twig" %}
+{% block titulo %} {{ 'menu.op4.5' | trans }} {%  endblock %}
+
+{% block contenido %}
+<div class="container-fluid">
+    <div class="row filaSliderContacto">
+        <div class="col-sm-12 paddingIzqCero paddingDerCero">
+            <img src="{{ asset('imagenes/packages-slide.jpg') }}" class="img-responsive">
+            <img src="{{ asset('imagenes/pleca-rojo.png') }}" class="img-responsive imagenSliderContact">
+        </div>
+    </div>
+{% set tituloPagina = ('menu.op4.5' | trans) %}
+{% include 'estructura/titulo.twig' %}
+ {% for i in range(1,3) %}
+    <div class="row cuadroImagenInfo">
+        <div class="col-sm-10 col-sm-offset-1 fondoAzul">
+            <div class="row">
+                <div class="col-sm-7 paddingIzqCero">
+                    <img src="{{ asset('imagenes/packages/packages-image.jpg') }}" class="img-responsive">
+
+                </div>
+                <div class="col-sm-5 letraBlanca contInfoPack">
+                    <div class="row">
+                        <div class="col-sm-12 text-right">
+                            <h4><b>Package All Inclusive</b></h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 text-center contParrafoPack">
+                            <b>Flight &nbsp; |&nbsp; Transportation &nbsp; | &nbsp; Hotel &nbsp; |&nbsp; Tour</b>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 contParrafoPack">
+                            <p class="text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+                                Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+                                vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+                                volutpat nisi.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 col-sm-offset-8">
+                            <button id="verMas" class="btn botonEncuentralos letraBlanca"><b>More</b></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+</div>
+
+
+{% endblock %}
