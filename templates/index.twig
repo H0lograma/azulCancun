@@ -1,5 +1,5 @@
 {% extends "plantilla.twig" %}
-{% block titulo %} {{ 'menu1' | trans }} {%  endblock %}
+{% block titulo %} {{ 'menu.op1' | trans }} {%  endblock %}
 
 {% block liksPropios %}
     <link href="{{ asset('css/ihover.css') }}" rel="stylesheet">
@@ -78,19 +78,19 @@
         </div>
         <div class="row fondoInicio4 filaServiciosTexto sombraCaja">
             <div class="col-sm-2 col-sm-offset-2 bordeServicioIzq cuadroServicio text-center">
-                <span>{{ 'tituloServ1' | trans }}</span>
+                <span class="letraServiciosTitu" >{{ 'tituloServ1' | trans }}</span>
                 <p class="letraServiciosCont">{{ 'descripServ1' | trans }}</p>
             </div>
             <div class="col-sm-2 bordeServicioIzq cuadroServicio text-center">
-                <span>{{ 'tituloServ2' | trans }}</span>
+                <span class="letraServiciosTitu">{{ 'tituloServ2' | trans }}</span>
                 <p class="letraServiciosCont">{{ 'descripServ2' | trans }}</p>
             </div>
             <div class="col-sm-2 bordeServicioIzq cuadroServicio text-center">
-                <span>{{ 'tituloServ3' | trans }}</span>
+                <span class="letraServiciosTitu">{{ 'tituloServ3' | trans }}</span>
                 <p class="letraServiciosCont">{{ 'descripServ3' | trans }}</p>
             </div>
             <div class="col-sm-2 bordeServicioIzq bordeServicioDer cuadroServicio text-center">
-                <span>{{ 'tituloServ4' | trans }}</span>
+                <span class="letraServiciosTitu">{{ 'tituloServ4' | trans }}</span>
                 <p class="letraServiciosCont">{{ 'descripServ4' | trans }}</p>
             </div>
         </div>
@@ -390,27 +390,27 @@
         </div>
         <div class="row sombraCajaArribaInt2 filaFormulario fondoInicio5">
             <div class="col-sm-4 col-sm-offset-6">
-                    <form role="form" id="frmcontacto" class="formularioContac">
+                    <form role="form" id="frmIndex" class="formularioContac">
                         <div class="form-group">
                             <!--<label for=""></label>-->
-                            <input type="text" class="form-control validacontacto" id="nombre" placeholder="{{ 'formCampo1' | trans }}">
-                        </div>
-                        <div class="form-group">
-                            <!--<label for=""></label>-->
-                            <input type="email" class="form-control" id="correo" placeholder="{{ 'formCampo3' | trans }}">
+                            <input type="text" class="form-control validacontacto" id="nombre" placeholder="{{ 'formIndex.campo1' | trans }}">
                         </div>
                         <div class="form-group">
                             <!--<label for=""></label>-->
-                            <input type="text" class="form-control" id="telefono" placeholder="{{ 'formCampo2' | trans }}">
+                            <input type="email" class="form-control" id="correo" placeholder="{{ 'formIndex.campo3' | trans }}">
                         </div>
                         <div class="form-group">
                             <!--<label for=""></label>-->
-                            <input type="text" class="form-control validacontacto" id="ciudad" placeholder="{{ 'formCampo4' | trans }}">
+                            <input type="text" class="form-control" id="telefono" placeholder="{{ 'formIndex.campo2' | trans }}">
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" rows="3" id="comentarios" placeholder="{{ 'formCampo5' | trans }}"></textarea>
+                            <!--<label for=""></label>-->
+                            <input type="text" class="form-control validacontacto" id="ciudad" placeholder="{{ 'formIndex.campo4' | trans }}">
                         </div>
-                        <button type="submit" id="enviarFormulario" class="btn botonEncuentralos letraBlanca center-block"><b>{{ 'formEnviar' | trans }}</b></button>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3" id="comentarios" placeholder="{{ 'formIndex.campo5' | trans }}"></textarea>
+                        </div>
+                        <button type="submit" id="enviarFormulario" class="btn botonEncuentralos letraBlanca center-block"><b>{{ 'formIndex.enviar' | trans }}</b></button>
                     </form>
             </div>
         </div>

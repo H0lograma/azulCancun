@@ -21,11 +21,11 @@
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav pull-right">
                         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                        <li class="">
-                            <a class="page-scroll" href="#page-top">{{ 'menu1'|trans }}</a>
+                        <li class="active">
+                            <a class="page-scroll" href="{{ path('homepage') }}">{{ 'menu.op1'|trans }}</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#about">{{ 'menu2'|trans }}</a>
+                            <a class="page-scroll" href="{{ path('nosotros') }}">{{ 'menu.op2'|trans }}</a>
                         </li>
                         <!--<li>
                             <a class="page-scroll" href="#services">{{ 'menu3'|trans }}</a>
@@ -33,16 +33,13 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                aria-haspopup="true" aria-expanded="false">
-                                {{ 'menu3'|trans }}
+                                {{ 'menu.op3'|trans }}
                             </a>
                             <ul class="dropdown-menu fondoAzul">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Destino 1</a></li>
+                                <li><a href="#">Destino 2</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">One more separated link</a></li>
+                                <li><a href="#">Destino 3</a></li>
                             </ul>
                         </li>
                         <!--<li>
@@ -51,29 +48,28 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                aria-haspopup="true" aria-expanded="false">
-                                {{ 'menu4'|trans }}
+                                {{ 'menu.op4.0'|trans }}
                             </a>
                             <ul class="dropdown-menu fondoAzul">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
+                                <li><a href="{{ path('weddings') }}">{{ 'menu.op4.1'|trans }}</a></li>
+                                <li><a href="{{ path('dmc') }}">{{ 'menu.op4.2'|trans }}</a></li>
+                                <li><a href="{{ path('transportation') }}">{{ 'menu.op4.3'|trans }}</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">One more separated link</a></li>
+                                <li><a href="{{ path('tours') }}">{{ 'menu.op4.4'|trans }}</a></li>
+                                <li><a href="{{ path('packages') }}">{{ 'menu.op4.5'|trans }}</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#contact">{{ 'menu5'|trans }}</a>
+                            <a class="page-scroll" href="{{ path('contacto') }}">{{ 'menu.op5'|trans }}</a>
                         </li>
 
                         <li class="dropdown menuOpcionIdioma">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                aria-haspopup="true" aria-expanded="false">
-                                {{ 'lenguajeAct'|trans }}<span class="caret"></span>
+                                {{ 'menu.op6.0'|trans }}<span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu fondoAzul">
-                                <li><a href="#">{{ 'lenguaje1'|trans }}</a></li>
+                                <li><a href="#">{{ 'menu.op6.1'|trans }}</a></li>
 
                             </ul>
                         </li>

@@ -1,0 +1,73 @@
+{% extends "plantilla.twig" %}
+{% block titulo %} {{ 'menu.op4.1' | trans }} {%  endblock %}
+
+{% block contenido %}
+    <div class="container-fluid">
+        <div class="row filaSliderContacto">
+            <div class="col-sm-12 paddingIzqCero paddingDerCero">
+                <img src="{{ asset('imagenes/wedding-slide.jpg') }}" class="img-responsive">
+                <img src="{{ asset('imagenes/pleca-naranja.png') }}" class="img-responsive imagenSliderContact">
+            </div>
+        </div>
+        {% set tituloPagina = ('menu.op4.1' | trans) %}
+        {% include 'estructura/titulo.twig' %}
+        <div class="row letraGrisMedio cuadroParrafo">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h2 class="text-center espacioSubtNos">{{ 'wedding.titulo' | trans }}</h2>
+                <p>{{ 'wedding.parrafo1' | trans }}</p>
+                <p>{{ 'wedding.parrafo2' | trans }}</p>
+                <p>{{ 'wedding.parrafo3' | trans }}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="row fondoNaranjaClaro">
+                    <div class="col-sm-1 col-sm-offset-4">
+                        <img src="{{ asset('imagenes/icono-azul-cancun-blanco.png') }}" class="img-responsive iconoServWed">
+                    </div>
+                    <div class="col-sm-5">
+                        <h1 class="cuadroSubNos letraBlanca">{{ 'wedding.subtitulo1'|trans }}</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row filaListaNos letraGrisMedio">
+            <div class="col-sm-8 col-sm-offset-2">
+                <ul class="listNos">
+                    {% for i in range(1,'wedding.lista1.0'|trans) %}
+                        <li>
+                            {{ ('wedding.lista1.'~i)|trans}}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="row fondoGrisClaro">
+            <div class="col-sm-6 paddingDerCero paddingIzqCero">
+                <img src="{{ asset('imagenes/wedding-image.jpg') }}" class="img-responsive">
+            </div>
+            <div class="col-sm-4 col-sm-offset-1 letraGrisMedio">
+                <h3 class="text-center"><b>{{ 'wedding.formTitulo' | trans }}</b></h3>
+                <form role="form" id="frmWedding" class="formularioContac">
+                    <div class="form-group">
+                        <label for="nombre"><b>{{ 'formIndex.campo1' | trans }}</b></label>
+                        <input type="text" class="form-control validacontacto fondoGrisClaro" id="nombre" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><b>{{ 'formIndex.campo3' | trans }}</b></label>
+                        <input type="email" class="form-control fondoGrisClaro" id="correo" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono"><b>{{ 'formIndex.campo2' | trans }}</b></label>
+                        <input type="text" class="form-control fondoGrisClaro" id="telefono" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono"><b>{{ 'formIndex.campo5' | trans }}</b></label>
+                        <textarea class="form-control fondoGrisClaro" rows="3" id="comentarios" placeholder=""></textarea>
+                    </div>
+                    <button type="submit" id="enviarFormulario" class="btn botonEncuentralos letraBlanca center-block"><b>{{ 'formIndex.enviar' | trans }}</b></button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

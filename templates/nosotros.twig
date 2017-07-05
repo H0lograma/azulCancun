@@ -1,5 +1,5 @@
 {% extends "plantilla.twig" %}
-{% block titulo %} {{ 'menu2' | trans }} {%  endblock %}
+{% block titulo %} {{ 'menu.op2' | trans }} {%  endblock %}
 
 {% block contenido %}
     <div class="container-fluid">
@@ -9,12 +9,47 @@
                 <img src="{{ asset('imagenes/pleca-azul.png') }}" class="img-responsive imagenSliderContact">
             </div>
         </div>
-        <div class="row filaLogoContact">
-            <div class="col-sm-2 col-sm-offset-1">
-                <img src="{{ asset('imagenes/icono-azul-cancun.png') }}" class="img-responsive">
+        {% set tituloPagina = ('menu.op2' | trans) %}
+        {% include 'estructura/titulo.twig' %}
+
+        <div class="row letraGrisMedio cuadroParrafo">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h2 class="text-center espacioSubtNos">{{ 'nosotros.titulo' | trans }}</h2>
+                <p>{{ 'nosotros.parrafo1' | trans }}</p>
+                <p>{{ 'nosotros.parrafo2' | trans }}</p>
+                <p>{{ 'nosotros.parrafo3' | trans }}</p>
             </div>
-            <div class="col-sm-9 filaContactTitulo">
-                <span class="letraTitulo">{{ 'menu2' | trans }}</span>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 text-center">
+                <h1 class="cuadroSubNos fondoAzul letraBlanca">{{ 'nosotros.subtitulo1'|trans }}</h1>
+            </div>
+        </div>
+        <div class="row filaListaNos">
+            <div class="col-sm-8 col-sm-offset-2">
+                <ul class="listNos">
+                    {% for i in range(1,'nosotros.lista1.0'|trans) %}
+                        <li>
+                            {{ ('nosotros.lista1.'~i)|trans}}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 text-center">
+                <h1 class="cuadroSubNos fondoAzul letraBlanca">{{ 'nosotros.subtitulo2'|trans }}</h1>
+            </div>
+        </div>
+        <div class="row filaListaNos">
+            <div class="col-sm-8 col-sm-offset-2">
+                <ul class="listNos">
+                    {% for i in range(1,'nosotros.lista2.0'|trans) %}
+                        <li>
+                            {{ ('nosotros.lista2.'~i)|trans}}
+                        </li>
+                    {% endfor %}
+                </ul>
             </div>
         </div>
     </div>

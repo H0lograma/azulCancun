@@ -12,13 +12,42 @@ $app->get('/{_locale}', function () use ($app) {
     return $app['twig']->render('index.twig', array());
 })->bind('homepage');
 
-$app->get('/{_locale}/contacto', function () use ($app) {
+$app->get('/{_locale}/about-us', function () use ($app) {
+    return $app['twig']->render('nosotros.twig', array());
+})->bind('nosotros');
+
+$app->get('/{_locale}/destinations', function () use ($app) {
+    return $app['twig']->render('destinos.twig', array());
+})->bind('destinos');
+
+
+$app->get('/{_locale}/services', function () use ($app) {
+    return $app['twig']->render('servicios.twig', array());
+})->bind('servicios');
+$app->get('/{_locale}/services/weddings', function () use ($app) {
+    return $app['twig']->render('weddings.twig', array());
+})->bind('weddings');
+$app->get('/{_locale}/services/dmc', function () use ($app) {
+    return $app['twig']->render('dmc.twig', array());
+})->bind('dmc');
+$app->get('/{_locale}/services/transportation', function () use ($app) {
+    return $app['twig']->render('transportation.twig', array());
+})->bind('transportation');
+$app->get('/{_locale}/services/tours', function () use ($app) {
+    return $app['twig']->render('tours/tours.twig', array());
+})->bind('tours');
+$app->get('/{_locale}/services/packages', function () use ($app) {
+    return $app['twig']->render('packages/packages.twig', array());
+})->bind('packages');
+
+
+$app->get('/{_locale}/contact', function () use ($app) {
     return $app['twig']->render('contacto.twig', array());
 })->bind('contacto');
 
-$app->get('/{_locale}/nosotros', function () use ($app) {
-    return $app['twig']->render('nosotros.twig', array());
-})->bind('nosotros');
+
+
+
 
 $app->error(function (\Exception $e, Request $request, $code) use ($app) {
     if ($app['debug']) {

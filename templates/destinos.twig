@@ -1,16 +1,22 @@
 {% extends "plantilla.twig" %}
-{% block titulo %} {{ 'menu.op5' | trans }} {%  endblock %}
+{% block titulo %} {{ 'menu5' | trans }} {%  endblock %}
 
 {% block contenido %}
-    <div class="container-fluid fondoGrisClaro">
+    <div class="container-fluid">
         <div class="row filaSliderContacto">
             <div class="col-sm-12 paddingIzqCero paddingDerCero">
-                    <img src="{{ asset('imagenes/contact-slide.jpg') }}" class="img-responsive">
-                    <img src="{{ asset('imagenes/pleca-azul.png') }}" class="img-responsive imagenSliderContact">
+                <img src="{{ asset('imagenes/contact-slide.jpg') }}" class="img-responsive">
+                <img src="{{ asset('imagenes/pleca-azul.png') }}" class="img-responsive imagenSliderContact">
             </div>
         </div>
-        {% set tituloPagina = ('menu.op5' | trans) %}
-        {% include 'estructura/titulo.twig' %}
+        <div class="row fondoGrisClaro filaLogoContact">
+            <div class="col-sm-2 col-sm-offset-1 cuadroImagenLogo">
+                <img src="{{ asset('imagenes/icono-azul-cancun.png') }}" class="img-responsive">
+            </div>
+            <div class="col-sm-9 filaContactTitulo">
+                <span class="letraTitulo">{{ 'menu5' | trans }}</span>
+            </div>
+        </div>
         <div class="row fondoGrisClaro filaTelFormContact">
             <div class="col-sm-5 col-sm-offset-1">
                 <span class="letraSubtitulo">{{ 'contactMasInfo' | trans }}</span>
@@ -23,33 +29,33 @@
 
             </div>
             <div class="col-sm-5">
-                <form role="form" id="frmContacto" class="formularioContac">
+                <form role="form" id="frmcontacto2" class="formularioContac">
                     <div class="form-group">
-                        <label for="departamento"><b>{{ 'formContact.titulo' | trans }}</b></label>
+                        <label for="departamento"><b>{{ 'contactForm1' | trans }}</b></label>
                         <select class="form-control fondoGrisClaro" id="departamento">
-                            <option value="1">{{ 'formContact.op1' | trans }}</option>
-                            <option value="2">{{ 'formContact.op2' | trans }}</option>
-                            <option value="3">{{ 'formContact.op3' | trans }}</option>
-                            <option value="4">{{ 'formContact.op4' | trans }}</option>
+                            <option value="1">{{ 'contactSelect1' | trans }}</option>
+                            <option value="2">{{ 'contactSelect2' | trans }}</option>
+                            <option value="3">{{ 'contactSelect3' | trans }}</option>
+                            <option value="4">{{ 'contactSelect4' | trans }}</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="nombre"><b>{{ 'formIndex.campo1' | trans }}</b></label>
+                        <label for="nombre"><b>{{ 'formCampo1' | trans }}</b></label>
                         <input type="text" class="form-control validacontacto fondoGrisClaro" id="nombre" placeholder="">
                     </div>
                     <div class="form-group">
-                        <label for="email"><b>{{ 'formIndex.campo3' | trans }}</b></label>
+                        <label for="email"><b>{{ 'formCampo3' | trans }}</b></label>
                         <input type="email" class="form-control fondoGrisClaro" id="correo" placeholder="">
                     </div>
                     <div class="form-group">
-                        <label for="telefono"><b>{{ 'formIndex.campo2' | trans }}</b></label>
+                        <label for="telefono"><b>{{ 'formCampo2' | trans }}</b></label>
                         <input type="text" class="form-control fondoGrisClaro" id="telefono" placeholder="">
                     </div>
                     <div class="form-group">
-                        <label for="telefono"><b>{{ 'formIndex.campo5' | trans }}</b></label>
+                        <label for="telefono"><b>{{ 'formCampo5' | trans }}</b></label>
                         <textarea class="form-control fondoGrisClaro" rows="3" id="comentarios" placeholder=""></textarea>
                     </div>
-                    <button type="submit" id="enviarFormulario" class="btn botonEncuentralos letraBlanca center-block"><b>{{ 'formIndex.enviar' | trans }}</b></button>
+                    <button type="submit" id="enviarFormulario" class="btn botonEncuentralos letraBlanca center-block"><b>{{ 'formEnviar' | trans }}</b></button>
                 </form>
             </div>
         </div>

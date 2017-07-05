@@ -10,28 +10,28 @@
     font-family: MontserratSemiBold;
 }
 .letraTitulo{
-    font-size: 60px;
+    font-size: 4.6rem;
 }
 .letraSubtitulo{
-    font-size: 40px;
+    font-size: 3.5rem;
 }
 .letraMenu{
-    font-size: 19px;
+    font-size: 1.5rem;
 }
 .letraFooter{
-    font-size: 16px;
+    font-size: 1.5rem;
 }
 .letraOtros{
     font-size: 24px;
 }
 .letraServiciosTitu{
-    font-size: 22px;
+    font-size: 2rem;
 }
 .letraServiciosCont{
-    font-size: 16px;
+    font-size: 1.5rem;
 }
 .letraSubFila{
-    font-size: 35px;
+    font-size: 3rem;
 }
 .textoA {
     font-size: 50px;
@@ -41,12 +41,13 @@
 }
 body{
     font-family: MontserratRegular;
-    font-size: 21px;
-    color: #181818;
+    font-size: 1.5rem;
+    color: #4b4b4b;
 }
 .letraAzul{
     color:#3e8ac3;
 }
+
 .letraGrisOscuro{
     color: #181818;
 }
@@ -62,11 +63,20 @@ body{
 .letraGrisMedio{
     color: #737373;
 }
+.letraGrisMedio2{
+    color: #4b4b4b;
+}
+.letraAmarilla{
+    color: #e5e153;
+}
 .fondoAzul{
     background-color: #3e8ac3;
 }
 .fondoNaranja{
     background-color: #f58834;
+}
+.fondoNaranjaClaro{
+    background-color: #f79a7e;
 }
 .fondoAmarillo{
     background-color: #e5e153;
@@ -281,7 +291,7 @@ label{
     padding-bottom: 1%;
 }
 .letraTituloDest{
-    padding-top: 1%;
+    padding-top: 1.5%;
 }
 .filaTituloDest{
     padding-top: 10px;
@@ -363,4 +373,36 @@ label{
 }
 .filaTelFormContact{
     padding-bottom: 5%;
+}
+.cuadroImagenLogo{
+    padding-left:30px;
+    padding-right: 30px;
+}
+.espacioSubtNos{
+    padding-bottom: 5rem;
+}
+.cuadroSubNos{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.listNos {
+    list-style: none;
+}
+
+.listNos li:before{
+    content: "•";
+    font-size: 3rem; /* or whatever */
+    padding-right: 5px;
+    font-weight: bold;
+    color: #e5e153;
+}
+.filaListaNos{
+    padding-bottom: 25px;
+}
+.cuadroParrafo{
+    padding-bottom: 5rem;
+}
+.iconoServWed{
+    margin-top: 10px;
 }

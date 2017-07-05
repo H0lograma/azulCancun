@@ -1,7 +1,19 @@
 variable1: hola
-menu1: Inicio
-menu2: Nosotros
-menu3: Destinos
-menu4: Servicios
-menu5: Contáctanos
-lenguaje: ENG
+menu:
+    op1: Home
+    op2: Nosotros
+    op3: Destinations
+    op4:
+        0: Services
+        1: Weddings
+        2: DMC
+        3: Transportation
+        4: Tours
+        5: Packages
+    op5: Contact us
+    op6:
+        0: ENG
+        1: ESP
+    op7: Terms of Use
+    op8: Trademarks
+    op9: Privacy Statement

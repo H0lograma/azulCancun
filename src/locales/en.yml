@@ -1,18 +1,29 @@
 variable1: hello
-menu1: Home
-menu2: About US
-menu3: Destinations
-menu4: Services
-menu5: Contact US
-lenguajeAct: ENG
-lenguaje1: ESP
-menuPie2: Terms of Use
-menuPie3: Trademarks
-menuPie4: Privacy Statement
-pieTexto1: Copyright © 2014 Azul Cancun Vacations. All Rights Reserved - Webmaster.
-pieTexto2:  Any total or partial reproduction of this content is prohibited whithout written authorization from the owner.
-pieTexto3: It is the responsibillity of the hotel chain and / or property to guarantee the accuracy of the photographs shown.
-pieTexto4:  We are not responsible for inaccuracies in the photographs.
+menu:
+    op1: Home
+    op2: About us
+    op3: Destinations
+    op4:
+        0: Services
+        1: Weddings
+        2: DMC
+        3: Transportation
+        4: Tours
+        5: Packages
+    op5: Contact us
+    op6:
+        0: ENG
+        1: ESP
+    op7: Terms of Use
+    op8: Trademarks
+    op9: Privacy Statement
+
+parrafoPie:
+    1: Copyright © 2014 Azul Cancun Vacations. All Rights Reserved - Webmaster.
+    2:  Any total or partial reproduction of this content is prohibited whithout written authorization from the owner.
+    3: It is the responsibillity of the hotel chain and / or property to guarantee the accuracy of the photographs shown.
+    4:  We are not responsible for inaccuracies in the photographs.
+
 llamaSin: Call free:
 
 destino: Destination
@@ -48,21 +59,132 @@ indexCont4: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id
             orci quis, elementum efficitur magna. Cras vitae placerat ligula. Quisque ex eros, accumsan ac nisl at, tempus hendrerit lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
             cubilia Curae.
 indexTitulo5: Do you need more info?
-formCampo1: Full Name
-formCampo2: Phone
-formCampo3: E-mail
-formCampo4: City
-formCampo5: Comments
-formEnviar: Send
+
+formIndex:
+    campo1: Full Name
+    campo2: Phone
+    campo3: E-mail
+    campo4: City
+    campo5: Comments
+    enviar: Send
 
 contactMasInfo: More Information
 contactFree: Feel free to call us
-contactForm1: Department
-contactSelect1: Groups & Events
-contactSelect2: Vacation Planning
-contactSelect3: Weddings
-contactSelect4: Webmaster
+formContact:
+    titulo: Department
+    op1: Groups & Events
+    op2: Vacation Planning
+    op3: Weddings
+    op4: Webmaster
 
+nosotros:
+    titulo: Azul Cancun
+    parrafo1: Azul Cancun Vacations & DMC is an innovative concept that offers solutions and planning services for unique travel
+              experiences in Cancun and Riviera Maya.
+    parrafo2: Azul Cancun Vacatons & DMC arises as a new option for Meeting Planners, Event Organizers, Wedding Planners or
+              leisure travelers who envision memorable moments and outstanding results.
+    parrafo3: From an eventful family vacation to a sophisticated signature event or an incentive trip, our creative and capable
+              team will transform yout ideas in once-in-a lifetime memories.
+    subtitulo1: Values & Principles
+    lista1:
+        0: 4
+        1: Respect and integrity
+        2: Total commitment
+        3: Genuine interest in our client's needs
+        4: Understanding of our client´s desires and feelings
+    subtitulo2: Our Strengths
+    lista2:
+        0: 10
+        1: Refined service and Attention to detail
+        2: Strong relationship with suppliers
+        3: Reputation
+        4: Tailor made programs
+        5: Personalized service
+        6: Standards of Operation
+        7: Bi-Lingual staff
+        8: Uncompromising Resposiveness
+        9: Thorough supplier interview and selection processes
+        10: Understanding the importance of return for investment
 
-
-
+wedding:
+    titulo: Romance along the Mexican Caribbean
+    parrafo1: Celebrate your love with an unforgettable journey. With uncompromising luxury and unlimited flexibility this
+              thriving destination on the edge of the crystal blue waters of the Caribbean, makes an ideal wedding destination.
+              A picture-perfect place where the heavenly Caribbean and romantic Mexico blend together. Bride and groom can enjoy
+              relaxing beaches, feast on fabulous delicacies, indulge in spa treatments, and stay in a villa by the sea or a
+              luxurious hotel room with breathtaking ocean views.
+    parrafo2: Whether you choose the magic of a traditional Mayan ritual or a simple elegant ceremony blessed by the blue waters
+              of its fantastic beaches, Mexico is the perfect setting for your Caribbean wedding and honeymoon. Let our specialist
+              introduce you to a land both ancient and refreshingly new.
+    parrafo3: We work hand in hand with you to create a unique beautiful event which reflects your taste and style. We will make
+              sure the planning process keeps you calm, exceeds your expectations and leaves you and your guests full of cherished
+              happy memories.
+    parrafo4: No matter what your wedding dreams may be, be assured we will make them come true.
+    subtitulo1: Services
+    lista1:
+        0: 7
+        1: Vacation Design and Planning
+        2: Professional advice at all stages and on the selection of services and providers
+        3: Ground transportation on provate or shared basis
+        4: Private or public activities and excursions
+        5: Vacation rentals
+        6: Diner reservations
+        7: Car rental
+    formTitulo: More information
+dmc:
+    titulo: Corporate Event Management
+    parrafo1: Whether it is a conference, incentive program, AGM, award ceremony or product launch; the critical success
+              factor is meticulous planning.
+    parrafo2: Our dedicated team of experts, with their service and quality approach, will fully commit to every project we work on,
+              regardless of scale, complexity or budget, having the creation of exceptional events as their sole objetive.
+    parrafo3: With a young and dynamic spirit, supported by professional knowledge of the Caribbean and the tourism industry, in
+              Azul Cancún we plan and work on every detail to create experiences that truly immerse participants in a wonderful
+              experience and ensure that everything we do will exceed our clients expectations.
+    subtitulo1: Services
+    lista1:
+        0: 13
+        1: Event Design and Planning
+        2: Professional advice at all stages and on the selection of services and providers
+        3: Ground transportation
+        4: Group tours & activities
+        5: Companion activities
+        6: Dine around
+        7: Special events at exclusive off premise venues
+        8: Off site catering
+        9: Decor
+        10: Audiovisual
+        11: Entertainment
+        12: Team building activities
+        13: Give aways
+    formTitulo: More information
+transp:
+    titulo: Air Transportation
+    subtitulo1: Welcome to the dazzling Mexican Caribbean!
+    subtitulo2: Private Arrival Transfer
+    parrafo1: We understand the importance of the Airport greeting & meeting as it will be yout first contact with our Mexican
+              Caribbean Paradise. Therefore, our group of friendly and professional representatives will make sure this
+              experience is as pleasant as arriving home.
+    subtitulo3: Services
+    lista1:
+        0: 9
+        1: Customized pre-assignation of vehicles according to number of guests traveling on each flight
+        2: Electronic arrival confirmation coupon
+        3: Flight status tracking
+        4: Meeting and greeting service
+        5: Airport signs displaying your name or company logo
+        6: Private transportation from the airport to your hotel on comfortable air-conditioned vehicles
+        7: Bottled water on board
+        8: Follow up with airline representatives in case of loss luggage
+        9: Airport taxes
+    subtitulo4: Private Departure Transfers
+    parrafo4: A flawless departure experience will be the perfect ending of a great vacation. Our attentive and friendly
+              chauffeurs will safely and punctually drive you from your hotel to the international Airport of Cancun.
+    lista2:
+        0: 5
+        1: Customized pre-assignation of vehicles according to the number of group guests traveling on each flight
+        2: Electronic departure notice
+        3: Private transportation from your hotel to the airport on comfortable air-conditioned vehicles
+        4: Bottled water on board
+        5: Airport taxes
+    parrafo6: "Transportation on a shared basis can be arranged upon request"
+    formTitulo: More information
