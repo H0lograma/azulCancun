@@ -84,6 +84,9 @@ body{
 .fondoGrisClaro{
     background-color: #e5e3e4;
 }
+.fondoRojo{
+    background-color: #e72f2d;
+}
 .paddingIzqCero{
     padding-left: 0px;
 }
@@ -454,4 +457,22 @@ label{
 }
 .filaIncluidoTours{
     padding-top: 4rem;
+}
+.panelGrupoTours{
+    margin-bottom: 0px;
+}
+.panelTours{
+    border:none;
+}
+.linkSeccionTour:hover, .linkSeccionTour:focus{
+    text-decoration: none;
+}
+.panel-heading {
+    padding: 0;
+}
+.tituloSeccionTour{
+    padding: 10px 15px;
+}
+.collapsed > .tituloSeccionTour{
+    background-color: #f58834;
 }
