@@ -10,7 +10,7 @@
     font-family: MontserratSemiBold;
 }
 .letraTitulo{
-    font-size: 4.6rem;
+    font-size: 4rem;
 }
 .letraSubtitulo{
     font-size: 3.5rem;
@@ -352,7 +352,7 @@ label{
     bottom: 0px;
 }
 .filaSliderContacto{
-    padding-top: 7%;
+    padding-top: 10rem;
 }
 .filaContactTitulo{
     padding-top: 50px;
@@ -475,4 +475,8 @@ label{
 }
 .collapsed > .tituloSeccionTour{
     background-color: #f58834;
+}
+.filaBotonReq{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }

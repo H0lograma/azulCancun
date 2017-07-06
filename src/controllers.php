@@ -7,8 +7,11 @@ use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 //Request::setTrustedProxies(array('127.0.0.1'));
+$app->get('/', function () use ($app) {
+    return $app['twig']->render('index.twig', array());
+})->bind('homepage1');
 
-$app->get('/{_locale}', function () use ($app) {
+$app->get('/{_locale}/', function () use ($app) {
     return $app['twig']->render('index.twig', array());
 })->bind('homepage');
 
@@ -16,50 +19,22 @@ $app->get('/{_locale}/about-us', function () use ($app) {
     return $app['twig']->render('nosotros.twig', array());
 })->bind('nosotros');
 
-$app->get('/{_locale}/destinations', function () use ($app) {
-    return $app['twig']->render('destinos.twig', array());
-})->bind('destinos');
-$app->get('/{_locale}/destinations/1', function () use ($app) {
-    return $app['twig']->render('destinos/destino.twig', array());
-})->bind('destino1');
-$app->get('/{_locale}/destinations/detalle', function () use ($app) {
-    return $app['twig']->render('destinos/detalle.twig', array());
-})->bind('detalledest');
-
-$app->get('/{_locale}/services', function () use ($app) {
-    return $app['twig']->render('servicios.twig', array());
-})->bind('servicios');
-$app->get('/{_locale}/services/weddings', function () use ($app) {
-    return $app['twig']->render('weddings.twig', array());
-})->bind('weddings');
-$app->get('/{_locale}/services/dmc', function () use ($app) {
-    return $app['twig']->render('dmc.twig', array());
-})->bind('dmc');
-$app->get('/{_locale}/services/transportation', function () use ($app) {
-    return $app['twig']->render('transportation.twig', array());
-})->bind('transportation');
-$app->get('/{_locale}/services/tours', function () use ($app) {
-    return $app['twig']->render('tours/tours.twig', array());
-})->bind('tours');
-$app->get('/{_locale}/services/tours/detalle', function () use ($app) {
-    return $app['twig']->render('tours/detalle.twig', array());
-})->bind('detalletour');
-
-$app->get('/{_locale}/services/packages', function () use ($app) {
-    return $app['twig']->render('packages/packages.twig', array());
-})->bind('packages');
-
-$app->get('/{_locale}/services/packages/detalle', function () use ($app) {
-    return $app['twig']->render('packages/detalle.twig', array());
-})->bind('detallepack');
-
-
 $app->get('/{_locale}/contact', function () use ($app) {
     return $app['twig']->render('contacto.twig', array());
 })->bind('contacto');
 
+$app->get('/{_locale}/quotation', function () use ($app) {
+    return $app['twig']->render('cotizacion.twig', array());
+})->bind('cotiza');
 
 
+$app->mount('/{_locale}/destinations',include 'destinosControllers.php');
+
+$app->mount('/{_locale}/services',include 'serviciosControllers.php');
+
+$app->mount('/{_locale}/services/tours',include 'toursControllers.php');
+
+$app->mount('/{_locale}/services/packages',include 'paquetesControllers.php');
 
 
 $app->error(function (\Exception $e, Request $request, $code) use ($app) {
