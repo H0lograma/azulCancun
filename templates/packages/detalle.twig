@@ -3,13 +3,14 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('scripts/slick/slick.css') }}"/>
     <link rel="stylesheet" type="text/css" href="{{ asset('scripts/slick/slick-theme.css') }}"/>
 {% endblock %}
-{% block titulo %} {{ 'menu.op4.5' | trans }} {%  endblock %}
+{% set nomPaquete = ('paquetes.'~idpaquete~'.titulo') | trans  %}
+{% block titulo %} {{ nomPaquete }} {%  endblock %}
 
 {% block contenido %}
     <div class="container-fluid paddingPaginaPrin">
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1">
-                <h2><b>Package All Inclusive</b></h2>
+                <h2><b>{{ nomPaquete }}</b></h2>
             </div>
         </div>
 
@@ -17,47 +18,42 @@
             <div class="col-sm-10 col-sm-offset-1 fondoAzul">
                 <div class="row">
                     <div class="col-sm-7 paddingIzqCero paddingDerCero">
-                        <!--<img src="{{ asset('imagenes/packages/packages-image.jpg') }}" class="img-responsive">-->
-
-                            <div class="galeriaCentral">
-                                <div><img src="https://unsplash.it/779/463/?image=0" class="img-responsive"></div>
-                                <div><img src="https://unsplash.it/779/463/?image=1" class="img-responsive"></div>
-                                <div><img src="https://unsplash.it/779/463/?image=2" class="img-responsive"></div>
-                                <div><img src="https://unsplash.it/779/463/?image=3" class="img-responsive"></div>
-                                <div><img src="https://unsplash.it/779/463/?image=4" class="img-responsive"></div>
-                                <div><img src="https://unsplash.it/779/463/?image=5" class="img-responsive"></div>
-                                <div><img src="https://unsplash.it/779/463/?image=6" class="img-responsive"></div>
-                            </div>
-                            <div class="galeriaLista">
-                                <div><img src="https://unsplash.it/779/463/?image=0" class="img-responsive"></div>
-                                <div><img src="https://unsplash.it/779/463/?image=1" class="img-responsive"></div>
-                                <div><img src="https://unsplash.it/779/463/?image=2" class="img-responsive"></div>
-                                <div><img src="https://unsplash.it/779/463/?image=3" class="img-responsive"></div>
-                                <div><img src="https://unsplash.it/779/463/?image=4" class="img-responsive"></div>
-                                <div><img src="https://unsplash.it/779/463/?image=5" class="img-responsive"></div>
-                                <div><img src="https://unsplash.it/779/463/?image=6" class="img-responsive"></div>
-                            </div>
+                        {% set totg = ('paquetes.'~idpaquete~'.galeria.0') | trans %}
+                        <div class="galeriaCentral">
+                            {% for i in range(1,totg) %}
+                                <div><img src="{{ asset('imagenes/packages/'~('paquetes.'~idpaquete~'.galeria.'~i) | trans ) }}" class="img-responsive"></div>
+                            {% endfor %}
+                        </div>
+                        <div class="galeriaLista">
+                            {% for i in range(1,totg) %}
+                                <div><img src="{{ asset('imagenes/packages/'~('paquetes.'~idpaquete~'.galeria.'~i) | trans ) }}" class="img-responsive"></div>
+                            {% endfor %}
+                        </div>
                     </div>
                     <div class="col-sm-5 letraBlanca contInfoPack">
                         <div class="row">
                             <div class="col-sm-12 text-center contParrafoPack">
-                                <b>Flight &nbsp; | &nbsp;  Transportation &nbsp; | &nbsp; Hotel &nbsp; | &nbsp; Tour</b>
+                                {% set totc = ('paquetes.'~idpaquete~'.incluidos.0') | trans %}
+                                {% for l in range(1,totc) %}
+                                    <b>{{ ('paquetes.'~idpaquete~'.incluidos.'~l~'.titulo') | trans }}</b>
+                                    {% if l != totc  %}
+                                        &nbsp; | &nbsp;
+                                    {% endif %}
+                                {% endfor %}
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12 contParrafoPack">
-                                <h4 class="text-right"><b>About</b></h4>
+                                <h4 class="text-right"><b>{{ ('acercade') | trans }}</b></h4>
                                 <p class="text-justify">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
-                                    Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
-                                    vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
-                                    volutpat nisi.
+                                    {{ ('paquetes.'~idpaquete~'.descripcion') | trans }}
                                 </p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-4 col-sm-offset-8">
-                                <button id="verMas" class="btn botonEncuentralos letraBlanca"><b>Request</b></button>
+                                {% set link = ('solicitar.link') | trans %}
+                                <a id="verMas" class="btn botonEncuentralos letraBlanca" href="{{ path(link) }}"><b>{{ ('solicitar.titulo') | trans }}</b></a>
                             </div>
                         </div>
                     </div>
@@ -65,64 +61,22 @@
             </div>
         </div>
         {% set colorRectangulo = 'fondoNaranja' %}
-        {% set textoRectangulo = 'Includes' %}
+        {% set textoRectangulo = ('incluidos') | trans %}
         {% include 'estructura/rectangulo-subtitulo.twig' %}
-        <div class="row filaInclPack">
-            <div class="col-sm-1 col-sm-offset-1 cuadroImagenPack">
-                <img src="{{ asset('imagenes/packages-icon-03.png') }}" class="img-responsive">
+        {% set toti = ('paquetes.'~idpaquete~'.incluidos.0') | trans %}
+        {% for m in range(1,toti) %}
+            <div class="row filaInclPack">
+                <div class="col-sm-1 col-sm-offset-1 cuadroImagenPack">
+                    <img src="{{ asset('imagenes/'~('paquetes.'~idpaquete~'.incluidos.'~m~'.imagen') | trans) }}" class="img-responsive">
+                </div>
+                <div class="col-sm-9">
+                    <h3><b>{{ ('paquetes.'~idpaquete~'.incluidos.'~m~'.titulo') | trans }}</b></h3>
+                    <p class="text-justify">
+                      {{ ('paquetes.'~idpaquete~'.incluidos.'~m~'.texto') | trans }}
+                    </p>
+                </div>
             </div>
-            <div class="col-sm-9">
-                <h3><b>Flights</b></h3>
-                <p class="text-justify">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
-                    Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
-                    vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
-                    volutpat nisi.
-                </p>
-            </div>
-        </div>
-        <div class="row filaInclPack">
-            <div class="col-sm-1 col-sm-offset-1 cuadroImagenPack">
-                <img src="{{ asset('imagenes/packages-icon.png') }}" class="img-responsive">
-            </div>
-            <div class="col-sm-9">
-                <h3><b>Transportation</b></h3>
-                <p class="text-justify">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
-                    Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
-                    vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
-                    volutpat nisi.
-                </p>
-            </div>
-        </div>
-        <div class="row filaInclPack">
-            <div class="col-sm-1 col-sm-offset-1 cuadroImagenPack">
-                <img src="{{ asset('imagenes/packages-icon-04.png') }}" class="img-responsive">
-            </div>
-            <div class="col-sm-9">
-                <h3><b>Hotel</b></h3>
-                <p class="text-justify">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
-                    Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
-                    vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
-                    volutpat nisi.
-                </p>
-            </div>
-        </div>
-        <div class="row filaInclPack">
-            <div class="col-sm-1 col-sm-offset-1 cuadroImagenPack">
-                <img src="{{ asset('imagenes/packages-icon-02.png') }}" class="img-responsive">
-            </div>
-            <div class="col-sm-9">
-                <h3><b>Tours</b></h3>
-                <p class="text-justify">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
-                    Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
-                    vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
-                    volutpat nisi.
-                </p>
-            </div>
-        </div>
+        {% endfor %}
     </div>
 {% endblock %}
 {% block scriptsPropio %}

@@ -20,6 +20,12 @@ $app->get('/{_locale}/about-us', function () use ($app) {
     return $app['twig']->render('nosotros.twig', array());
 })->bind('nosotros');
 
+$app->get('/es/nosotros', function () use ($app) {
+    return $app['twig']->render('nosotros.twig', array(
+        'locale' => 'es'
+    ));
+})->bind('nosotrosesp');
+
 $app->get('/{_locale}/contact', function () use ($app) {
     return $app['twig']->render('contacto.twig', array());
 })->bind('contacto');

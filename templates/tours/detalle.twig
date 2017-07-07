@@ -3,56 +3,45 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('scripts/slick/slick.css') }}"/>
     <link rel="stylesheet" type="text/css" href="{{ asset('scripts/slick/slick-theme.css') }}"/>
 {% endblock %}
-{% block titulo %} Tour 1 {% endblock %}
+{% set nomLugar = ('tours.'~idtour~'.sitios.'~idsitio~'.nombre') | trans  %}
+{% block titulo %} {{ nomLugar }} {% endblock %}
 
 {% block contenido %}
     <div class="container-fluid paddingPaginaPrin">
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1">
-                <h2><b>Mayan Adventure</b></h2>
+                <h2><b>{{ nomLugar }}</b></h2>
             </div>
         </div>
         <div class="row cuadroImagenInfo">
             <div class="col-sm-10 col-sm-offset-1 fondoAzul">
                 <div class="row">
                     <div class="col-sm-7 paddingIzqCero paddingDerCero">
+                        {% set totg = ('tours.'~idtour~'.sitios.'~idsitio~'.galeria.0') | trans %}
                         <div class="galeriaCentral">
-                            <div><img src="https://unsplash.it/779/463/?image=0" class="img-responsive"></div>
-                            <div><img src="https://unsplash.it/779/463/?image=1" class="img-responsive"></div>
-                            <div><img src="https://unsplash.it/779/463/?image=2" class="img-responsive"></div>
-                            <div><img src="https://unsplash.it/779/463/?image=3" class="img-responsive"></div>
-                            <div><img src="https://unsplash.it/779/463/?image=4" class="img-responsive"></div>
-                            <div><img src="https://unsplash.it/779/463/?image=5" class="img-responsive"></div>
-                            <div><img src="https://unsplash.it/779/463/?image=6" class="img-responsive"></div>
+                            {% for i in range(1,totg) %}
+                                <div><img src="{{ asset('imagenes/tours/'~('tours.'~idtour~'.sitios.'~idsitio~'.galeria.'~i) | trans ) }}" class="img-responsive"></div>
+                            {% endfor %}
                         </div>
                         <div class="galeriaLista">
-                            <div><img src="https://unsplash.it/779/463/?image=0" class="img-responsive"></div>
-                            <div><img src="https://unsplash.it/779/463/?image=1" class="img-responsive"></div>
-                            <div><img src="https://unsplash.it/779/463/?image=2" class="img-responsive"></div>
-                            <div><img src="https://unsplash.it/779/463/?image=3" class="img-responsive"></div>
-                            <div><img src="https://unsplash.it/779/463/?image=4" class="img-responsive"></div>
-                            <div><img src="https://unsplash.it/779/463/?image=5" class="img-responsive"></div>
-                            <div><img src="https://unsplash.it/779/463/?image=6" class="img-responsive"></div>
+                            {% for i in range(1,totg) %}
+                                <div><img src="{{ asset('imagenes/tours/'~('tours.'~idtour~'.sitios.'~idsitio~'.galeria.'~i) | trans ) }}" class="img-responsive"></div>
+                            {% endfor %}
                         </div>
                     </div>
                     <div class="col-sm-5 letraBlanca contInfoPack">
                         <div class="row">
                             <div class="col-sm-12 contParrafoPack">
-                                <h4 class="text-right"><b>About</b></h4>
+                                <h4 class="text-right"><b>{{ ('acercade') | trans }}</b></h4>
                                 <p class="text-justify">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel
-                                    libero feugiat porta quis at massa.
-                                    Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit. Sed scelerisque
-                                    vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti.
-                                    Phasellus sit amet nisi sodales, bibendum velit in,
-                                    volutpat nisi.
+                                   {{ ('tours.'~idtour~'.sitios.'~idsitio~'.descripcion') | trans }}
                                 </p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-4 col-sm-offset-8">
-                                <button id="verMas" class="btn botonEncuentralos letraBlanca"><b>Request</b></button>
+                                {% set link = ('solicitar.link') | trans %}
+                                <a id="verMas" class="btn botonEncuentralos letraBlanca" href="{{ path (link) }}"><b>{{ ('solicitar.titulo') | trans }}</b></a>
                             </div>
                         </div>
                     </div>
@@ -60,57 +49,20 @@
             </div>
         </div>
         {% set colorRectangulo = 'fondoNaranja' %}
-        {% set textoRectangulo = 'Includes' %}
+        {% set textoRectangulo = ('incluidos') | trans %}
         {% include 'estructura/rectangulo-subtitulo.twig' %}
-
-        <div class="rorw filaIncluidoTours">
-            <div class="col-sm-2 col-sm-offset-2">
-                <b>
-                    <ul class="listHotel">
-                        <li>Food & Drinks</li>
-                        <li>Room Services 24 hours</li>
-                        <li>Restaurants</li>
-                        <li> Wireless Internet</li>
-                        <li>Massages</li>
-                    </ul>
-                </b>
+        <div class="row filaIncluidoTours">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="row">
+                    {% set toti = ('tours.'~idtour~'.sitios.'~idsitio~'.incluidos.0') | trans %}
+                    {% for m in range(1,toti) %}
+                        <div class="col-sm-3 contTextoServ">
+                            {{ ('tours.'~idtour~'.sitios.'~idsitio~'.incluidos.'~m)| trans }}
+                        </div>
+                    {% endfor %}
+                </div>
             </div>
-            <div class="col-sm-2">
-                <b>
-                    <ul class="listHotel">
-                        <li>Laundry</li>
-                        <li>Baby Sitter</li>
-                        <li>Concierge</li>
-                        <li>Kids club</li>
-                        <li>Dry Cleaning</li>
-                    </ul>
-                </b>
-            </div>
-            <div class="col-sm-2">
-                <b>
-                    <ul class="listHotel">
-                        <li>Food & Drinks</li>
-                        <li>Room Services 24 hours</li>
-                        <li>Restaurants</li>
-                        <li> Wireless Internet</li>
-                        <li>Massages</li>
-                    </ul>
-                </b>
-            </div>
-            <div class="col-sm-2">
-                <b>
-                    <ul class="listHotel">
-                        <li>Laundry</li>
-                        <li>Baby Sitter</li>
-                        <li>Concierge</li>
-                        <li>Kids club</li>
-                        <li>Dry Cleaning</li>
-                    </ul>
-                </b>
-            </div>
-
         </div>
-
     </div>
 {% endblock %}
 {% block scriptsPropio %}
