@@ -7,10 +7,11 @@ use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 //Request::setTrustedProxies(array('127.0.0.1'));
+/*
 $app->get('/', function () use ($app) {
     return $app['twig']->render('index.twig', array());
 })->bind('homepage1');
-
+*/
 $app->get('/{_locale}/', function () use ($app) {
     return $app['twig']->render('index.twig', array());
 })->bind('homepage');

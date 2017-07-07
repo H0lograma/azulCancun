@@ -1,54 +1,65 @@
 {% extends "plantilla.twig" %}
-{% block titulo %} Destino 1 {%  endblock %}
+{% block titulo %} {{ ('destinos.'~iddestino~'.nombre') | trans }} {%  endblock %}
 
 {% block contenido %}
     <div class="container-fluid">
         <div class="row filaSliderContacto">
             <div class="col-sm-12 paddingIzqCero paddingDerCero">
-                <img src="{{ asset('imagenes/destinos/destino-slide.jpg') }}" class="img-responsive">
+                {% set slider = ('destinos.'~iddestino~'.slider') | trans  %}
+                <img src="{{ asset('imagenes/destinos/'~slider) }}" class="img-responsive">
                 <img src="{{ asset('imagenes/pleca-rojo.png') }}" class="img-responsive imagenSliderContact">
             </div>
         </div>
-    </div>
-    {% set tituloPagina = 'Destino 1' %}
-    {% include 'estructura/titulo.twig' %}
-    {% for i in range(1,3) %}
-        <div class="row cuadroImagenInfo">
-            <div class="col-sm-10 col-sm-offset-1 fondoAzul">
-                <div class="row">
-                    <div class="col-sm-7 paddingIzqCero">
-                        <img src="{{ asset('imagenes/destinos/destino-image.jpg') }}" class="img-responsive">
+        {% set tituloPagina = ('destinos.'~iddestino~'.nombre') | trans %}
+        {% include 'estructura/titulo.twig' %}
+        {% set tot = ('destinos.'~iddestino~'.hoteles.0') | trans %}
+        {% for i in range(1,tot) %}
+            {% set titulo = ('destinos.'~iddestino~'.hoteles.'~i~'.nombre') | trans %}
+            {% set imagen = ('destinos.'~iddestino~'.hoteles.'~i~'.imagen') | trans %}
+            {% set texto = ('destinos.'~iddestino~'.hoteles.'~i~'.texto') | trans %}
+            {% set link = ('destinos.'~iddestino~'.hoteles.'~i~'.link') | trans %}
+            <div class="row cuadroImagenInfo">
+                <div class="col-sm-10 col-sm-offset-1 fondoAzul">
+                    <div class="row">
+                        <div class="col-sm-7 paddingIzqCero">
+                            <img src="{{ asset('imagenes/'~imagen) }}" class="img-responsive">
 
-                    </div>
-                    <div class="col-sm-5 letraBlanca contInfoPack">
-                        <div class="row">
-                            <div class="col-sm-12 text-right">
-                                <h4><b>Hyatt Ziva</b></h4>
-                            </div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-12 text-center contParrafoPack">
-                                <b>All inclusive &nbsp; |&nbsp; Family Friendly &nbsp; | &nbsp; Beach view &nbsp; |&nbsp; Spa</b>
+                        <div class="col-sm-5 letraBlanca contInfoPack">
+                            <div class="row">
+                                <div class="col-sm-12 text-right">
+                                    <h4><b>{{ titulo }}</b></h4>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12 contParrafoPack">
-                                <p class="text-justify">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
-                                    Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
-                                    vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
-                                    volutpat nisi.
-                                </p>
+                            <div class="row">
+                                <div class="col-sm-12 text-center contParrafoPack">
+                                    {% set totc = ('destinos.'~iddestino~'.hoteles.'~i~'.categorias.0') | trans %}
+                                    {% for l in range(1,totc) %}
+                                        <b>{{ ('destinos.'~iddestino~'.hoteles.'~i~'.categorias.'~l) | trans }}</b>
+                                        {% if l != totc  %}
+                                            &nbsp; | &nbsp;
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-4 col-sm-offset-8">
-                                <button id="verMas" class="btn botonEncuentralos letraBlanca"><b>More</b></button>
+                            <div class="row">
+                                <div class="col-sm-12 contParrafoPack">
+                                    <p class="text-justify">
+                                        {{ texto }}
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 col-sm-offset-8">
+                                    <a id="verMas" class="btn botonEncuentralos letraBlanca" href="{{ path (link) }}">
+                                        <b>{{ ('mas') | trans }}</b>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    {% endfor %}
+        {% endfor %}
+    </div>
 {% endblock %}
