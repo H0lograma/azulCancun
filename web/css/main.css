@@ -109,15 +109,15 @@ body{
     background: none;
 }
 .navbar-default .navbar-nav > li > a:hover{
-
+    color: #555;
+    background-color: #e7e7e7;
+    border-bottom: 7px solid #3e8ac3;
 }
 .navbar-default .navbar-nav > li > a:focus{
     border-bottom: 7px solid #3e8ac3;
     background: none;
 }
-.sliderPrin{
-    padding-top: 70px;
-}
+
 .dropdown-menu{
     min-width: inherit;
 }
@@ -134,7 +134,18 @@ body{
 .cajaMenu{
     padding-top: 10px;
 }
+/* desplegar menu al pasar puntero*/
+.dropdown:hover .dropdown-menu {
+   /* display: block;*/
+    /*margin-top: 0;*/
+}
+.dropdown-menu:hover{
+    /*border-bottom: 7px solid #3e8ac3;*/
+}
 
+.sliderPrin{
+    padding-top: 70px;
+}
 .piePagina{
     background: #494949;
     padding-top: 5%;
@@ -185,16 +196,16 @@ label{
     background-size: cover;
 }
 .fondoInicio3{
-    background: url('../imagenes/home-fondo.jpg');
-    background-size: cover;
+    background: url('../imagenes/home-fondo-03.jpg') center 8rem fixed;
+    background-size: contain;
 }
 .fondoInicio4{
-    background: url('../imagenes/home-fondo-02.jpg');
-    background-size: cover;
+    background: url('../imagenes/home-fondo-03.jpg') center 8rem fixed;
+    background-size: contain;
 }
 .fondoInicio5{
-    background: url('../imagenes/home-fondo-03.jpg');
-    background-size: cover;
+    background: url('../imagenes/home-fondo-03.jpg') center 8rem fixed;
+    background-size: contain;
 }
 .fondoInfoServ{
     background: url('../imagenes/contacto-home.png') no-repeat;
@@ -476,6 +487,9 @@ label{
 .collapsed > .tituloSeccionTour{
     background-color: #f58834;
 }
+.collapsed > .tituloSeccionTour:hover{
+    background-color: #e72f2d;
+}
 .filaBotonReq{
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -487,8 +501,54 @@ label{
     padding-bottom: 2rem;
     padding-left: 2rem;
 }
+
 .parallax-1{
-    background: url('../imagenes/about-us-slide.jpg') no-repeat center center fixed;
+    height: 72rem;
+}
+.parallax-2{
+    height: 70rem;
+}
+.slide-nosotros{
+    background: url('../imagenes/about-us-slide.jpg') no-repeat center 8rem fixed;
     background-size: cover;
-    height: 60rem;
+}
+.slide-contacto{
+    background: url('../imagenes/contact-slide.jpg') no-repeat center 8rem fixed;
+    background-size: cover;
+}
+.slide-cotiza{
+    background: url('../imagenes/quotation-request-slide.jpg') no-repeat center 8rem fixed;
+    background-size: cover;
+}
+.slide-bodas{
+    background: url('../imagenes/wedding-slide.jpg') no-repeat center 8rem fixed;
+    background-size: cover;
+}
+.slide-dmc{
+    background: url('../imagenes/dmc-slide.jpg') no-repeat center 8rem fixed;
+    background-size: cover;
+}
+.slide-transportacion{
+    background: url('../imagenes/transportation-slide.jpg') no-repeat center 8rem fixed;
+    background-size: cover;
+}
+.slide-tour{
+    background: url('../imagenes/tour-slide.jpg') no-repeat center 8rem fixed;
+    background-size: cover;
+}
+.slide-paquete{
+    background: url('../imagenes/packages-slide.jpg') no-repeat center 8rem fixed;
+    background-size: cover;
+}
+.slide-destino-1{
+    background: url('../imagenes/destinos/destino-slide.jpg') no-repeat center 8rem fixed;
+    background-size: cover;
+}
+.slide-destino-2{
+    background: url('../imagenes/destinos/destino-slide.jpg') no-repeat center 8rem fixed;
+    background-size: cover;
+}
+.slide-destino-3{
+    background: url('../imagenes/destinos/destino-slide.jpg') no-repeat center 8rem fixed;
+    background-size: cover;
 }

@@ -56,7 +56,7 @@
                 </form>
             </div>
         </div>
-        <div class="row fondoInicio3 cuadroNosotros text-justify">
+        <div class="row fondoInicio3 cuadroNosotros text-justify parallax-3">
             <div class="col-sm-8 col-sm-offset-2">
                 <span class="letraSubtitulo">{{ 'indexTitulo1' | trans }}</span>
                 <p>{{ 'indexCont1' | trans }}</p>
@@ -76,7 +76,7 @@
                 <img src="{{ asset('imagenes/home-icon-04.png') }}" class="img-responsive center-block">
             </div>
         </div>
-        <div class="row fondoInicio4 filaServiciosTexto sombraCaja">
+        <div class="row fondoInicio4 filaServiciosTexto sombraCaja parallax-3">
             <div class="col-sm-2 col-sm-offset-2 bordeServicioIzq cuadroServicio text-center">
                 <span class="letraServiciosTitu" >{{ 'caract1.titulo' | trans }}</span>
                 <p class="letraServiciosCont">{{ 'caract1.cont' | trans }}</p>
@@ -376,7 +376,7 @@
                 <div class="flechaFigura center-block"></div>
             </div>
         </div>
-        <div class="row fondoInicio5 filaContact sombraCajaArribaInt2">
+        <div class="row fondoInicio5 filaContact sombraCajaArribaInt2 parallax-3">
             <div class="col-sm-8 col-sm-offset-2 text-justify fondoInfoServ filaContact2">
                 <span class="letraSubtitulo">{{ 'indexTitulo4' | trans }}</span>
                 <p class="">{{ 'indexCont4' | trans }}</p>
@@ -388,7 +388,7 @@
                 {{ 'indexTitulo5' | trans }}
             </div>
         </div>
-        <div class="row sombraCajaArribaInt2 filaFormulario fondoInicio5">
+        <div class="row sombraCajaArribaInt2 filaFormulario fondoInicio5 parallax-3">
             <div class="col-sm-4 col-sm-offset-6">
                     <form role="form" id="frmIndex" class="formularioContac">
                         <div class="form-group">
@@ -417,4 +417,7 @@
 
     </div>
 
+{% endblock %}
+{% block scriptsPropio %}
+    <script src="{{ asset('scripts/contador.js') }}"></script>
 {% endblock %}

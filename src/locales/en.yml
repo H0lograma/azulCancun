@@ -353,6 +353,8 @@ destinos:
                     14: Wireless Internet
                     15: Massages
         slider: destino-slide.jpg
+        clase-slide: slide-destino-1
+
     2:
         nombre: Destino 2
         hoteles:
@@ -401,6 +403,7 @@ destinos:
                     16: Laundry
                     17: Baby Sitter
         slider: destino-slide.jpg
+        clase-slide: slide-destino-2
     3:
         nombre: Destino 3
         hoteles:
@@ -491,6 +494,7 @@ destinos:
                     14: Wireless Internet
                     15: Massages
         slider: destino-slide.jpg
+        clase-slide: slide-destino-3
 
 tours:
   0: 5

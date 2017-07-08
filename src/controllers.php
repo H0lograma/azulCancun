@@ -13,11 +13,15 @@ $app->get('/', function () use ($app) {
 })->bind('homepage1');
 */
 $app->get('/{_locale}/', function () use ($app) {
-    return $app['twig']->render('index.twig', array());
+    return $app['twig']->render('index.twig', array(
+        'ini' => 1
+    ));
 })->bind('homepage');
 
 $app->get('/{_locale}/about-us', function () use ($app) {
-    return $app['twig']->render('nosotros.twig', array());
+    return $app['twig']->render('nosotros.twig', array(
+        'nos' => 1
+    ));
 })->bind('nosotros');
 
 $app->get('/es/nosotros', function () use ($app) {
@@ -27,7 +31,9 @@ $app->get('/es/nosotros', function () use ($app) {
 })->bind('nosotrosesp');
 
 $app->get('/{_locale}/contact', function () use ($app) {
-    return $app['twig']->render('contacto.twig', array());
+    return $app['twig']->render('contacto.twig', array(
+        'cont' => 1
+    ));
 })->bind('contacto');
 
 $app->get('/{_locale}/quotation', function () use ($app) {

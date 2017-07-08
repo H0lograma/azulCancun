@@ -1,5 +1,27 @@
+{% set actIni='' %}
+{% set actNos='' %}
+{% set actCont='' %}
+{% set actDest='' %}
+{% set actServ='' %}
+
+{% if ini is defined %}
+    {% set actIni='active' %}
+{% endif %}
+{% if nos is defined %}
+    {% set actNos='active' %}
+{% endif %}
+{% if cont is defined %}
+    {% set actCont='active' %}
+{% endif %}
+{% if dest is defined %}
+    {% set actDest='active' %}
+{% endif %}
+{% if serv is defined %}
+    {% set actServ='active' %}
+{% endif %}
+
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top letraAzul letraMenu" role="navigation">
+<nav id="menuPrin" class="navbar navbar-default navbar-fixed-top letraAzul letraMenu" role="navigation">
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-4">
@@ -21,16 +43,13 @@
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav pull-right">
                         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                        <li class="active">
+                        <li class="{{ actIni }}">
                             <a class="page-scroll" href="{{ path('homepage') }}">{{ 'menu.op1'|trans }}</a>
                         </li>
-                        <li>
+                        <li class="{{ actNos }}">
                             <a class="page-scroll" href="{{ path('nosotros') }}">{{ 'menu.op2'|trans }}</a>
                         </li>
-                        <!--<li>
-                            <a class="page-scroll" href="#services">{{ 'menu3'|trans }}</a>
-                        </li>-->
-                        <li class="dropdown">
+                        <li class="{{ actDest }} dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                aria-haspopup="true" aria-expanded="false">
                                 {{ 'menu.op3'|trans }}
@@ -42,10 +61,7 @@
 
                             </ul>
                         </li>
-                        <!--<li>
-                            <a class="page-scroll" href="#contact">{{ 'menu4'|trans }}</a>
-                        </li>-->
-                        <li class="dropdown">
+                        <li class="{{ actServ }} dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                aria-haspopup="true" aria-expanded="false">
                                 {{ 'menu.op4.0'|trans }}
@@ -59,17 +75,18 @@
                                 <li><a href="{{ path('packages') }}">{{ 'menu.op4.5'|trans }}</a></li>
                             </ul>
                         </li>
-                        <li>
+                        <li class="{{ actCont }}">
                             <a class="page-scroll" href="{{ path('contacto') }}">{{ 'menu.op5'|trans }}</a>
                         </li>
 
                         <li class="dropdown menuOpcionIdioma">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                aria-haspopup="true" aria-expanded="false">
-                                {{ 'menu.op6.0'|trans }}<span class="caret"></span>
+                                <em>{{ 'menu.op6.0'|trans }}</em>
+                                <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu fondoAzul">
-                                <li><a href="#">{{ 'menu.op6.1'|trans }}</a></li>
+                                <li><a href="#"><em>{{ 'menu.op6.1'|trans }}</em></a></li>
 
                             </ul>
                         </li>

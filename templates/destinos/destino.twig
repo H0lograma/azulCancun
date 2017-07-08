@@ -3,10 +3,10 @@
 
 {% block contenido %}
     <div class="container-fluid">
-        <div class="row filaSliderContacto">
-            <div class="col-sm-12 paddingIzqCero paddingDerCero">
-                {% set slider = ('destinos.'~iddestino~'.slider') | trans  %}
-                <img src="{{ asset('imagenes/destinos/'~slider) }}" class="img-responsive">
+        <div class="row">
+            <div class="col-sm-12 paddingIzqCero paddingDerCero parallax-2 {{ ('destinos.'~iddestino~'.clase-slide') | trans }}">
+                {# set slider = ('destinos.'~iddestino~'.slider') | trans  #}
+                <!--<img src="{ asset('imagenes/destinos/'~slider) }}" class="img-responsive">-->
                 <img src="{{ asset('imagenes/pleca-rojo.png') }}" class="img-responsive imagenSliderContact">
             </div>
         </div>
