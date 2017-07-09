@@ -3,7 +3,9 @@
 
 {% block liksPropios %}
     <link href="{{ asset('css/ihover.css') }}" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ asset('scripts/datepicker/jquery-ui.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ asset('scripts/datepicker/jquery-ui.structure.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ asset('scripts/datepicker/jquery-ui.theme.css') }}"/>
 {% endblock %}
 {% block contenido %}
 
@@ -25,8 +27,8 @@
                         </div>
                         <div class="col-sm-3">
                             <div class="form-group">
-                                <label for="llegada">{{ 'llegada' | trans }}</label>
-                                <input type="text" class="form-control inputCheckin" id="llegada" name="llegada" placeholder="">
+                                <label for="llegadaind">{{ 'llegada' | trans }}</label>
+                                <input type="text" class="form-control inputCheckin" id="llegadaind" name="llegadaind" placeholder="" readonly onchange>
                             </div>
                         </div>
                         <div class="col-sm-2">
@@ -434,5 +436,41 @@
 
 {% endblock %}
 {% block scriptsPropio %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
     <script src="{{ asset('scripts/contador.js') }}"></script>
+    <script src="{{ asset('scripts/datepicker/jquery-ui.js') }}"></script>
+    <script>
+        $.datepicker.regional['es'] = {
+            closeText: 'Cerrar',
+            prevText: '<Ant',
+            nextText: 'Sig>',
+            currentText: 'Hoy',
+            monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+            monthNamesShort: ['Ene','Feb','Mar','Abr', 'May','Jun','Jul','Ago','Sep', 'Oct','Nov','Dic'],
+            dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+            dayNamesShort: ['Dom','Lun','Mar','Mié','Juv','Vie','Sáb'],
+            dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','Sá'],
+            weekHeader: 'Sm',
+            dateFormat: 'yy/mm/dd',
+            firstDay: 1,
+            isRTL: false,
+            showMonthAfterYear: false,
+            yearSuffix: ''
+        };
+        $.datepicker.setDefaults($.datepicker.regional['es']);
+        $(function(){
+            $( "#llegadaind" ).datepicker({
+                minDate: 0,
+                defaultDate: "+1w",
+                changeMonth: false,
+                changeYear: false,
+                onSelect: function( selectedDate ) {
+                },
+
+            });
+            $( "#llegada" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
+        });
+
+
+    </script>
 {% endblock %}

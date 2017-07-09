@@ -1,6 +1,10 @@
 {% extends "plantilla.twig" %}
 {% block titulo %} {{ 'Quotation' }} {% endblock %}
-
+{% block liksPropios %}
+    <link rel="stylesheet" type="text/css" href="{{ asset('scripts/datepicker/jquery-ui.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ asset('scripts/datepicker/jquery-ui.structure.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ asset('scripts/datepicker/jquery-ui.theme.css') }}"/>
+{% endblock %}
 {% block contenido %}
     <div class="container-fluid">
         <div class="row">
@@ -41,6 +45,7 @@
                                 <div class="panel-body letraGrisMedio">
                                     <div class="row">
                                         <div class="col-sm-8 col-sm-offset-2">
+                                            <div id="datepicker"></div>
                                             <div class="form-group">
                                                 <label for="nombre"><b>{{ 'cotizaciones.infoPersonal.1' | trans }}</b></label>
                                                 <input type="text"
@@ -423,20 +428,62 @@
                                  role="tabpanel"
                                  aria-labelledby="seccion1">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid. 3 wolf moon
-                                    officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                                    laborum
-                                    eiusmod. Brunch 3
-                                    wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-                                    assumenda shoreditch et.
-                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                                    ea
-                                    proident. Ad vegan
-                                    excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore
-                                    sustainable
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <div class="form-group">
+                                                <label for="destino"><b>{{ 'cotizaciones.infoCotizacion.1' | trans }}</b></label>
+                                                <input type="text"
+                                                       class="form-control validacontacto fondoGrisClaro input-cuadro"
+                                                       id="destino" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4 col-sm-offset-2">
+                                            <div class="form-group">
+                                                <label for="llegada"><b>{{ 'cotizaciones.infoCotizacion.2' | trans }}</b></label>
+                                                <input type="text"
+                                                       class="form-control validacontacto fondoGrisClaro input-cuadro"
+                                                       id="llegada" placeholder="" readonly onchange>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <label for="salida"><b>{{ 'cotizaciones.infoCotizacion.3' | trans }}</b></label>
+                                                <input type="text"
+                                                       class="form-control validacontacto fondoGrisClaro input-cuadro"
+                                                       id="salida" placeholder="" readonly onchange>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4 col-sm-offset-2">
+                                            <div class="form-group">
+                                                <label for="huespedes"><b>{{ 'cotizaciones.infoCotizacion.4' | trans }}</b></label>
+                                                <input type="text"
+                                                       class="form-control validacontacto fondoGrisClaro input-cuadro"
+                                                       id="huespedes" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4 col-sm-offset-2">
+                                            <div class="form-group">
+                                                <label for="llegadaalterna"><b>{{ 'cotizaciones.infoCotizacion.5' | trans }}</b></label>
+                                                <input type="text"
+                                                       class="form-control validacontacto fondoGrisClaro input-cuadro"
+                                                       id="llegadaalterna" placeholder="" readonly onchange>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <label for="salidaalterna"><b>{{ 'cotizaciones.infoCotizacion.6' | trans }}</b></label>
+                                                <input type="text"
+                                                       class="form-control validacontacto fondoGrisClaro input-cuadro"
+                                                       id="salidaalterna" placeholder="" readonly onchange>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -455,20 +502,62 @@
                                  role="tabpanel"
                                  aria-labelledby="seccion1">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid. 3 wolf moon
-                                    officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                                    laborum
-                                    eiusmod. Brunch 3
-                                    wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-                                    assumenda shoreditch et.
-                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                                    ea
-                                    proident. Ad vegan
-                                    excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore
-                                    sustainable
+                                    <div class="row">
+                                        <div class="col-sm-3 col-sm-offset-2">
+                                            <div class="form-group">
+                                                <label for="llegtrans"><b>{{ 'cotizaciones.transportacion.1' | trans }}:</b></label>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="llegtrans" id="llegtranssi" value="option1">
+                                                        {{ ('cotizaciones.si') | trans }}
+                                                    </label>
+                                                </div>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="llegtrans" id="llegtransno" value="option2" checked>
+                                                        {{ ('cotizaciones.no') | trans }}
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <label for="salidtrans"><b>{{ 'cotizaciones.transportacion.2' | trans }}:</b></label>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="salidtrans" id="salidtranssi" value="option1">
+                                                        {{ ('cotizaciones.si') | trans }}
+                                                    </label>
+                                                </div>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="salidtrans" id="salidtransno" value="option2" checked>
+                                                        {{ ('cotizaciones.no') | trans }}
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <label for="requerim1"><b>{{ 'cotizaciones.transportacion.3' | trans }}:</b></label>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" id="requerim1" value="">
+                                                        {{ ('cotizaciones.si') | trans }}
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <div class="form-group">
+                                                <label for="requerim2"><b>{{ 'cotizaciones.transportacion.4' | trans }}</b></label>
+                                                <textarea class="form-control fondoGrisClaro input-cuadro" rows="3"
+                                                          id="requerim2" placeholder=""></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -487,7 +576,31 @@
                                  role="tabpanel"
                                  aria-labelledby="seccion1">
                                 <div class="panel-body">
-                                    asd
+                                    <div class="row">
+                                        <div class="col-sm-4 col-sm-offset-2">
+                                            <div class="radio">
+                                                <label for="asegurado"><b>{{ 'cotizaciones.acomodado.1' | trans }}:</b></label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <div class="form-group">
+                                                    <div class="radio">
+                                                        <label>
+                                                            <input type="radio" name="asegurado" id="aseguradosi" value="option1">
+                                                            {{ ('cotizaciones.si') | trans }}
+                                                        </label>
+                                                    </div>
+                                                    <div class="radio">
+                                                        <label>
+                                                            <input type="radio" name="asegurado" id="aseguradono" value="option2" checked>
+                                                            {{ ('cotizaciones.no') | trans }}
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -506,20 +619,163 @@
                                  role="tabpanel"
                                  aria-labelledby="seccion1">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid. 3 wolf moon
-                                    officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                                    laborum
-                                    eiusmod. Brunch 3
-                                    wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-                                    assumenda shoreditch et.
-                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                                    ea
-                                    proident. Ad vegan
-                                    excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore
-                                    sustainable
+                                    <div class="row">
+                                        <div class="col-sm-2 col-sm-offset-2">
+                                            <div class="form-group">
+                                                <label for="numexcur"><b>{{ 'cotizaciones.tours.1' | trans }}:</b></label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <input type="text"
+                                                       class="form-control validacontacto fondoGrisClaro input-cuadro"
+                                                       id="numexcur" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4 col-sm-offset-2">
+                                            <div class="form-group">
+                                                <label for="mediodia"><b>{{ 'cotizaciones.tours.2' | trans }}:</b></label>
+                                                <input type="text"
+                                                       class="form-control validacontacto fondoGrisClaro input-cuadro"
+                                                       id="mediodia" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <label for="diacompleto"><b>{{ 'cotizaciones.tours.3' | trans }}:</b></label>
+                                                <input type="text"
+                                                       class="form-control validacontacto fondoGrisClaro input-cuadro"
+                                                       id="diacompleto" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <label for="excursion"><b>{{ 'cotizaciones.tours.4' | trans }}:</b></label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3 col-sm-offset-2">
+                                            <div class="form-group">
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" id="cultural" value="">
+                                                        {{ ('cotizaciones.tours.5') | trans }}
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" id="actividad" value="">
+                                                        {{ ('cotizaciones.tours.6') | trans }}
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" id="compras" value="">
+                                                        {{ ('cotizaciones.tours.7') | trans }}
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" id="playa" value="">
+                                                        {{ ('cotizaciones.tours.8') | trans }}
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" id="golf" value="">
+                                                        {{ ('cotizaciones.tours.9') | trans }}
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" id="deportes" value="">
+                                                        {{ ('cotizaciones.tours.10') | trans }}
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" id="educativo" value="">
+                                                        {{ ('cotizaciones.tours.11') | trans }}
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" id="divertido" value="">
+                                                        {{ ('cotizaciones.tours.12') | trans }}
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" id="mezclado" value="">
+                                                        {{ ('cotizaciones.tours.13') | trans }}
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" id="safari" value="">
+                                                        {{ ('cotizaciones.tours.14') | trans }}
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" id="equipo" value="">
+                                                        {{ ('cotizaciones.tours.15') | trans }}
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" id="extremo" value="">
+                                                        {{ ('cotizaciones.tours.16') | trans }}
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" id="turismo" value="">
+                                                        {{ ('cotizaciones.tours.17') | trans }}
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <div class="form-group">
+                                                <label for="fechaexc"><b>{{ 'cotizaciones.tours.18' | trans }}:</b></label>
+                                                <input type="text"
+                                                       class="form-control validacontacto fondoGrisClaro input-cuadro"
+                                                       id="fechaexc" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <div class="form-group">
+                                                <label for="requerimexc"><b>{{ 'cotizaciones.tours.19' | trans }}</b></label>
+                                                <textarea class="form-control fondoGrisClaro input-cuadro" rows="3"
+                                                          id="requerimexc" placeholder=""></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <div class="form-group">
+                                                <label for="adicionalexc"><b>{{ 'cotizaciones.tours.20' | trans }}:</b></label>
+                                                <textarea class="form-control fondoGrisClaro input-cuadro" rows="3"
+                                                          id="adicionalexc" placeholder=""></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -534,4 +790,86 @@
             </div>
         </form>
     </div>
+{% endblock %}
+{% block scriptsPropio %}
+    <script src="{{ asset('scripts/datepicker/jquery-ui.js') }}"></script>
+    <script>
+
+        $.datepicker.regional['es'] = {
+            closeText: 'Cerrar',
+            prevText: '<Ant',
+            nextText: 'Sig>',
+            currentText: 'Hoy',
+            monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+            monthNamesShort: ['Ene','Feb','Mar','Abr', 'May','Jun','Jul','Ago','Sep', 'Oct','Nov','Dic'],
+            dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+            dayNamesShort: ['Dom','Lun','Mar','Mié','Juv','Vie','Sáb'],
+            dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','Sá'],
+            weekHeader: 'Sm',
+            dateFormat: 'yy/mm/dd',
+            firstDay: 1,
+            isRTL: false,
+            showMonthAfterYear: false,
+            yearSuffix: ''
+        };
+        $.datepicker.setDefaults($.datepicker.regional['es']);
+
+        $(function() {
+            //$.datepicker.setDefaults($.datepicker.regional["es"]);
+            $( "#llegada" ).datepicker({
+                minDate: 0,
+                defaultDate: "+1w",
+                changeMonth: false,
+                changeYear: false,
+                onSelect: function( selectedDate ) {
+
+                    $( "#salida" ).datepicker( "option", "minDate", selectedDate );
+                    setTimeout(function(){
+                        $( "#salida" ).datepicker('show');
+                    }, 16);
+                },
+
+            });
+            $( "#llegada" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
+            $( "#salida" ).datepicker({
+                defaultDate: "+1w",
+                changeMonth: false,
+                changeYear: false,
+                onSelect: function( selectedDate ) {
+
+                    $( "#llegada" ).datepicker( "option", "maxDate", selectedDate );
+                }
+            });
+            $( "#salida" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
+
+
+            $( "#llegadaalterna" ).datepicker({
+                minDate: 0,
+                defaultDate: "+1w",
+                changeMonth: false,
+                changeYear: false,
+                onSelect: function( selectedDate ) {
+
+                    $( "#salidaalterna" ).datepicker( "option", "minDate", selectedDate );
+                    setTimeout(function(){
+                        $( "#salidaalterna" ).datepicker('show');
+                    }, 16);
+                },
+
+            });
+            $( "#llegadaalterna" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
+            $( "#salidaalterna" ).datepicker({
+                defaultDate: "+1w",
+                changeMonth: false,
+                changeYear: false,
+                onSelect: function( selectedDate ) {
+
+                    $( "#llegada" ).datepicker( "option", "maxDate", selectedDate );
+                }
+            });
+            $( "#salidaalterna" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
+        });
+
+
+    </script>
 {% endblock %}

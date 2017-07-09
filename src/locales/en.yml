@@ -1194,7 +1194,8 @@ cotizaciones:
   dia: Day
   enviar: Submit
   false: false
-  si: true
+  si: Yes
+  no: No
   infoPersonal:
     titulo: "Personal Information"
     1: "Full Name"

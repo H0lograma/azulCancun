@@ -475,6 +475,7 @@ label{
 }
 .panelGrupoTours{
     margin-bottom: 0px;
+    padding-bottom: 0.5rem;
 }
 .panelTours{
     border:none;
@@ -576,4 +577,15 @@ label{
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(233, 172, 102, 0.6);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(233, 172, 102, 0.6);
+}
+.form-control[readonly]{
+     background: none;
+}
+.inputCheckin[readonly]{
+    background: url(../imagenes/buscador-icon-03.png) no-repeat;
+    background-position-y: center;
+    background-position-x: 2%;
+    background-size: 8%;
+    padding-left: 35px;
+    background-color: white;
 }
