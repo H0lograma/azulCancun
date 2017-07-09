@@ -53,7 +53,7 @@
                         <div class="row">
                             <div class="col-sm-4 col-sm-offset-8">
                                 {% set link = ('solicitar.link') | trans %}
-                                <a id="verMas" class="btn botonEncuentralos letraBlanca" href="{{ path (link) }}"><b>{{ ('solicitar.titulo') | trans }}</b></a>
+                                <a id="verMas" class="btn botonEncuentralos letraBlanca center-block" href="{{ path (link) }}"><b>{{ ('solicitar.titulo') | trans }}</b></a>
                             </div>
                         </div>
                     </div>
@@ -63,17 +63,31 @@
         {% set colorRectangulo = 'fondoNaranja' %}
         {% set textoRectangulo = ('servicios') | trans %}
         {% include 'estructura/rectangulo-subtitulo.twig' %}
-        <div class="row">
-            <div class="col-sm-2 col-sm-offset-2 cuadroIconoHotel">
+        <div class="row hidden-xs">
+            <div class="col-sm-2 col-sm-offset-2 cuadroIconoHotel ">
                 <img src="{{ asset('imagenes/hotel-icon-04.png') }}" class="img-responsive">
             </div>
-            <div class="col-sm-2 cuadroIconoHotel">
+            <div class="col-sm-2 cuadroIconoHotel ">
                 <img src="{{ asset('imagenes/hotel-icon-02.png') }}" class="img-responsive">
             </div>
             <div class="col-sm-2 cuadroIconoHotel">
                 <img src="{{ asset('imagenes/hotel-icon-03.png') }}" class="img-responsive">
             </div>
             <div class="col-sm-2 cuadroIconoHotel">
+                <img src="{{ asset('imagenes/hotel-icon-01.png') }}" class="img-responsive">
+            </div>
+        </div>
+        <div class="row fila-icon-hotel-mobile visible-xs">
+            <div class="col-xs-3">
+                <img src="{{ asset('imagenes/hotel-icon-04.png') }}" class="img-responsive">
+            </div>
+            <div class="col-xs-3">
+                <img src="{{ asset('imagenes/hotel-icon-02.png') }}" class="img-responsive">
+            </div>
+            <div class="col-xs-3">
+                <img src="{{ asset('imagenes/hotel-icon-03.png') }}" class="img-responsive">
+            </div>
+            <div class="col-xs-3">
                 <img src="{{ asset('imagenes/hotel-icon-01.png') }}" class="img-responsive">
             </div>
         </div>

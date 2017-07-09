@@ -1187,22 +1187,16 @@ paquetes:
     link: paquete-3
 
 cotizaciones:
-  acomodado:
-    1: "Has Hotel been Secured"
-    titulo: Accomodation
+  titulo: "Requesting Quotation"
+  parrafo: "If you want to request more information for your next vacation. Please send us the following information"
   anio: Year
+  mes: Month
   dia: Day
   enviar: Submit
   false: false
-  infoCotizacion:
-    1: "Destination(s) considered"
-    2: "Dates from"
-    3: "Dates to"
-    4: "No. of Guests"
-    5: "Alternative Arrival"
-    6: "Alternative Departure"
-    titulo: "Quotation Info"
+  si: true
   infoPersonal:
+    titulo: "Personal Information"
     1: "Full Name"
     10: "Phone Number"
     11: "Area code"
@@ -1217,12 +1211,25 @@ cotizaciones:
     7: State
     8: "Zip code"
     9: Country
-    titulo: "Personal Information"
-  mes: Month
-  parrafo: "If you want to request more information for your next vacation. Please send us the following information"
-  si: true
-  titulo: "Requesting Quotation"
+  infoCotizacion:
+    titulo: "Quotation Info"
+    1: "Destination(s) considered"
+    2: "Dates from"
+    3: "Dates to"
+    4: "No. of Guests"
+    5: "Alternative Arrival"
+    6: "Alternative Departure"
+  transportacion:
+    titulo: Transportation
+    1: "Arrival Transfer"
+    2: "Departure Transfer"
+    3: "Specific Requirements i.e Coach, Minibus, Limo"
+    4: "Is there any other information regarding your Transfer requirements?"
+  acomodado:
+    titulo: Accomodation
+    1: "Has Hotel been Secured"
   tours:
+    titulo: Tours
     1: "No. of Excursions"
     10: Sports
     11: Educational
@@ -1243,10 +1250,5 @@ cotizaciones:
     7: Shopping
     8: Beach
     9: Golf
-    titulo: Tours
-  transportacion:
-    1: "Arrival Transfer"
-    2: "Departure Transfer"
-    3: "Specific Requirements i.e Coach, Minibus, Limo"
-    4: "Is there any other information regarding your Transfer requirements?"
-    titulo: Transportation
+
+

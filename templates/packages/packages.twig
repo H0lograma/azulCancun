@@ -16,7 +16,7 @@
             <div class="row cuadroImagenInfo">
                 <div class="col-sm-10 col-sm-offset-1 fondoAzul">
                     <div class="row">
-                        <div class="col-sm-7 paddingIzqCero">
+                        <div class="col-sm-7 paddingIzqCero paddingDerCero">
                             <img src="{{ asset('imagenes/packages/'~('paquetes.'~i~'.imagen')|trans) }}" class="img-responsive">
                         </div>
                         <div class="col-sm-5 letraBlanca contInfoPack">
@@ -46,7 +46,7 @@
                             <div class="row">
                                 <div class="col-sm-4 col-sm-offset-8">
                                     {% set link = ('paquetes.'~i~'.link') | trans %}
-                                    <a id="verMas" class="btn botonEncuentralos letraBlanca" href="{{ path(link) }}"><b>{{ ('mas') | trans }}</b></a>
+                                    <a id="verMas" class="btn botonEncuentralos letraBlanca center-block" href="{{ path(link) }}"><b>{{ ('mas') | trans }}</b></a>
                                 </div>
                             </div>
                         </div>

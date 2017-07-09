@@ -158,6 +158,9 @@ body{
 .textoTelPie{
     font-size: 15px;
 }
+.espacio-cont-logo-banco{
+    margin-bottom: 3rem;
+}
 .contTel{
     line-height: 1.2;
 }
@@ -334,7 +337,7 @@ label{
     clip-path: polygon(50% 70%, 100% 10%, 100% 30%, 50% 88%, 0 30%, 0 10%);
 }
 .filaContador{
-    line-height: 0.7;
+    line-height: 0.8;
     padding-top: 20px;
     padding-bottom: 10px;
 }
@@ -366,7 +369,7 @@ label{
     padding-top: 10rem;
 }
 .filaContactTitulo{
-    padding-top: 50px;
+    padding-top: 4rem;
 }
 .linkTelContact:hover{
     text-decoration: none;
@@ -422,6 +425,7 @@ label{
 }
 .contInfoPack{
     padding-top: 6rem;
+    padding-bottom: 1rem;
 }
 .contParrafoPack{
     padding-top: 3rem;
@@ -551,4 +555,25 @@ label{
 .slide-destino-3{
     background: url('../imagenes/destinos/destino-slide.jpg') no-repeat center 8rem fixed;
     background-size: cover;
+}
+.fila-icon-hotel-mobile{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.contenedor-form{
+    padding-bottom: 1rem;
+}
+.form-control{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.input-cuadro{
+    border: 1px solid #b4b4b4;
+}
+.input-cuadro:focus {
+    border-color: #e9a866;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(233, 172, 102, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(233, 172, 102, 0.6);
 }

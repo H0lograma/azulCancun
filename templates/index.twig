@@ -50,19 +50,19 @@
                             </div>
                         </div>
                         <div class="col-sm-3 col-sm-offset-3">
-                            <button type="submit" class="btn botonEncuentralos">{{ 'encuentralos' | trans }}</button>
+                            <button type="submit" class="btn botonEncuentralos center-block">{{ 'encuentralos' | trans }}</button>
                         </div>
                     </div>
                 </form>
             </div>
         </div>
-        <div class="row fondoInicio3 cuadroNosotros text-justify parallax-3">
+        <div class="row fondoInicio3 cuadroNosotros parallax-3">
             <div class="col-sm-8 col-sm-offset-2">
                 <span class="letraSubtitulo">{{ 'indexTitulo1' | trans }}</span>
-                <p>{{ 'indexCont1' | trans }}</p>
+                <p class="text-justify">{{ 'indexCont1' | trans }}</p>
             </div>
         </div>
-        <div class="row fondoAzul filaIconoServicio sombraCajaArriba">
+        <div class="row fondoAzul filaIconoServicio sombraCajaArriba hidden-xs">
             <div class="col-sm-2 col-sm-offset-2">
                 <img src="{{ asset('imagenes/home-icon-01.png') }}" class="img-responsive center-block">
             </div>
@@ -77,28 +77,40 @@
             </div>
         </div>
         <div class="row fondoInicio4 filaServiciosTexto sombraCaja parallax-3">
+            <div class="col-xs-12 visible-xs fondoAzul">
+                <img src="{{ asset('imagenes/home-icon-01.png') }}" class="img-responsive center-block">
+            </div>
             <div class="col-sm-2 col-sm-offset-2 bordeServicioIzq cuadroServicio text-center">
                 <span class="letraServiciosTitu" >{{ 'caract1.titulo' | trans }}</span>
                 <p class="letraServiciosCont">{{ 'caract1.cont' | trans }}</p>
             </div>
-            <div class="col-sm-2 bordeServicioIzq cuadroServicio text-center">
-                <span class="letraServiciosTitu">{{ 'caract2.titulo' | trans }}</span>
-                <p class="letraServiciosCont">{{ 'caract2.cont' | trans }}</p>
+            <div class="col-xs-12 visible-xs fondoAzul">
+                <img src="{{ asset('imagenes/home-icon-02.png') }}" class="img-responsive center-block">
             </div>
             <div class="col-sm-2 bordeServicioIzq cuadroServicio text-center">
                 <span class="letraServiciosTitu">{{ 'caract2.titulo' | trans }}</span>
                 <p class="letraServiciosCont">{{ 'caract2.cont' | trans }}</p>
             </div>
-            <div class="col-sm-2 bordeServicioIzq bordeServicioDer cuadroServicio text-center">
+            <div class="col-xs-12 visible-xs fondoAzul">
+                <img src="{{ asset('imagenes/home-icon-03.png') }}" class="img-responsive center-block">
+            </div>
+            <div class="col-sm-2 bordeServicioIzq cuadroServicio text-center">
                 <span class="letraServiciosTitu">{{ 'caract3.titulo' | trans }}</span>
                 <p class="letraServiciosCont">{{ 'caract3.cont' | trans }}</p>
             </div>
+            <div class="col-xs-12 visible-xs fondoAzul">
+                <img src="{{ asset('imagenes/home-icon-04.png') }}" class="img-responsive center-block">
+            </div>
+            <div class="col-sm-2 bordeServicioIzq bordeServicioDer cuadroServicio text-center">
+                <span class="letraServiciosTitu">{{ 'caract4.titulo' | trans }}</span>
+                <p class="letraServiciosCont">{{ 'caract4.cont' | trans }}</p>
+            </div>
         </div>
         <div class="row fondoNaranja filaTituloDest sombraCajaArribaInt">
-            <div class="col-sm-1 col-sm-offset-3">
+            <div class="col-sm-1 col-sm-offset-3 col-xs-3">
                 <img src="{{ asset('imagenes/icono-azul-cancun-blanco.png') }}" class="img-responsive">
             </div>
-            <div class="col-sm-8 letraTituloDest letraBlanca letraSubFila">
+            <div class="col-sm-8 letraTituloDest letraBlanca letraSubFila col-xs-9">
                 {{ 'indexTitulo2' | trans }}
             </div>
         </div>
@@ -226,10 +238,13 @@
         </div>
 
         <div class="row fondoNaranja filaTituloDest sombraCajaArribaInt">
-            <div class="col-sm-1 col-sm-offset-3">
+            <div class="col-sm-1 col-sm-offset-3 col-xs-3">
                 <img src="{{ asset('imagenes/icono-azul-cancun-blanco.png') }}" class="img-responsive">
             </div>
-            <div class="col-sm-8 letraTituloDest letraBlanca letraSubFila">
+            <div class="col-sm-8 letraTituloDest letraBlanca letraSubFila col-xs-9 hidden-xs">
+                {{ 'indexTitulo3' | trans }}
+            </div>
+            <div class="col-sm-8 letraTituloDest letraBlanca letraSubFila col-xs-9 visible-xs text-center">
                 {{ 'indexTitulo3' | trans }}
             </div>
         </div>

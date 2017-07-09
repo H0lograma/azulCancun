@@ -1,8 +1,16 @@
-<div class="row filaLogoContact">
+<div class="row filaLogoContact hidden-xs">
     <div class="col-sm-2 col-sm-offset-1 cuadroImagenLogo">
         <img src="{{ asset('imagenes/icono-azul-cancun.png') }}" class="img-responsive">
     </div>
     <div class="col-sm-9 filaContactTitulo">
+        <h1 class="letraTitulo"><b>{{ tituloPagina }}</b></h1>
+    </div>
+</div>
+<div class="row filaLogoContact visible-xs">
+    <div class="col-xs-4 cuadroImagenLogo">
+        <img src="{{ asset('imagenes/icono-azul-cancun.png') }}" class="img-responsive">
+    </div>
+    <div class="col-xs-8">
         <h1 class="letraTitulo"><b>{{ tituloPagina }}</b></h1>
     </div>
 </div>
