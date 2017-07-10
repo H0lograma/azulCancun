@@ -1,10 +1,35 @@
 <?php
 $tours = $app['controllers_factory'];
+
+$listaTorus=array('');
+
+$tours->get('/{nomtour}/{nomlugar}/{idtour}/{idsitio}', function ($idtour,$idsitio) use ($app) {
+    return $app['twig']->render('tours/detalle.twig', array(
+        'idtour' => $idtour,
+        'idsitio' => $idsitio,
+    ));
+})->bind('tourlugar');
+
+$tours->get('/probando', function () use ($app) {
+    /*
+        return $app['twig']->render('tours/detalle.twig', array(
+            'idtour' => $idtour,
+            'idsitio' => $idsitio,
+        ));*/
+    return '<a href="'.$app['url_generator']->generate('lugartour', array(
+            'nomtour' => 'tour-acuatico',
+            'nomlugar' => 'buceo',
+            'idtour' => 2,
+            'idsitio' => 2
+        )).'">otros tour </a>';
+
+})->bind('lugartour2');
 /*
 $tours->get('/', function () use ($app) {
     return $app['twig']->render('tours/tours.twig', array());
 })->bind('tours');
 */
+/*
 $tours->get('/lugar-1-1', function () use ($app) {
     return $app['twig']->render('tours/detalle.twig', array(
         'idtour' => 1,
@@ -109,5 +134,5 @@ $tours->get('/lugar-5-3', function () use ($app) {
         'idsitio' => 3
     ));
 })->bind('lugar-5-3');
-
+*/
 return $tours;

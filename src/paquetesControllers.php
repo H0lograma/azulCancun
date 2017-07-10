@@ -1,6 +1,14 @@
 <?php
 $paquetes = $app['controllers_factory'];
 
+$paquetes->get('/{nompaquete}/{idpaquete}', function ($nompaquete,$idpaquete) use ($app) {
+    return $app['twig']->render('packages/detalle.twig', array(
+        'idpaquete' => $idpaquete
+    ));
+})->bind('paquetes');
+
+
+/*
 $paquetes->get('/paquete-1', function () use ($app) {
     return $app['twig']->render('packages/detalle.twig', array(
         'idpaquete' => 1
@@ -18,5 +26,5 @@ $paquetes->get('/paquete-3', function () use ($app) {
         'idpaquete' => 3
     ));
 })->bind('paquete-3');
-
+*/
 return $paquetes;

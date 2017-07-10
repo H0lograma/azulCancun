@@ -41,7 +41,7 @@
 }
 .ui-widget-header {
 	border: 1px solid #333333;
-	background: #fc1313;
+	background: #e72f2d;
 	color: #ffffff;
 	font-weight: bold;
 }
@@ -61,7 +61,7 @@ works properly when clicked or hovered */
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
 	border: 1px solid #666666;
-	background: #fa5a10;
+	background: #f58834;
 	font-weight: bold;
 	color: #eeeeee;
 }

@@ -2,6 +2,20 @@
 
 $destinos = $app['controllers_factory'];
 
+$destinos->get('/{nomdest}/{iddestino}', function ($iddestino) use ($app) {
+    return $app['twig']->render('destinos/destino.twig', array(
+        'iddestino' => $iddestino
+    ));
+})->bind('destinos');
+
+$destinos->get('/{nomdest}/{nomhotel}/{iddest}/{idhotel}', function ($iddest,$idhotel) use ($app) {
+    return $app['twig']->render('destinos/detalle.twig', array(
+        'iddestino' => $iddest,
+        'idhotel' => $idhotel
+    ));
+})->bind('hoteles');
+
+/*
 $destinos->get('/destino1', function () use ($app) {
     return $app['twig']->render('destinos/destino.twig', array(
         'dest' => 1,
@@ -22,7 +36,8 @@ $destinos->get('/destino3', function () use ($app) {
         'iddestino' => 3
     ));
 })->bind('destino3');
-
+*/
+/*
 $destinos->get('/destino1/hotel-1-1', function () use ($app) {
     return $app['twig']->render('destinos/detalle.twig', array(
         'dest' => 1,
@@ -70,5 +85,5 @@ $destinos->get('/destino1/hotel-3-2', function () use ($app) {
         'idhotel' => 2
     ));
 })->bind('hotel-3-2');
-
+*/
 return $destinos;

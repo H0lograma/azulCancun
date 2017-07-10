@@ -17,7 +17,9 @@
             {% set titulo = ('destinos.'~iddestino~'.hoteles.'~i~'.nombre') | trans %}
             {% set imagen = ('destinos.'~iddestino~'.hoteles.'~i~'.imagen') | trans %}
             {% set texto = ('destinos.'~iddestino~'.hoteles.'~i~'.texto') | trans %}
-            {% set link = ('destinos.'~iddestino~'.hoteles.'~i~'.link') | trans %}
+            {% set linkdest = ('destinos.'~iddestino~'.link') | trans %}
+            {% set linkhotel = ('destinos.'~iddestino~'.hoteles.'~i~'.link') | trans %}
+
             <div class="row cuadroImagenInfo">
                 <div class="col-sm-10 col-sm-offset-1 fondoAzul">
                     <div class="row">
@@ -51,7 +53,13 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-4 col-sm-offset-8">
-                                    <a id="verMas" class="btn botonEncuentralos letraBlanca center-block" href="{{ path (link) }}">
+                                    <a id="verMas" class="btn botonEncuentralos letraBlanca center-block"
+                                       href="{{ path ('hoteles',{
+                                                                    nomdest: linkdest,
+                                                                    nomhotel: linkhotel,
+                                                                    iddest: iddestino,
+                                                                    idhotel: i
+                                                                }) }}">
                                         <b>{{ ('mas') | trans }}</b>
                                     </a>
                                 </div>

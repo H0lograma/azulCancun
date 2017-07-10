@@ -70,8 +70,16 @@
                                                         </div>
                                                         <div class="row">
                                                             <div class="col-sm-4 col-sm-offset-8">
-                                                                {% set link = ('tours.'~i~'.sitios.'~m~'.link') | trans  %}
-                                                                <a id="verMas" class="btn botonEncuentralos letraBlanca center-block" href="{{ path(link) }}"><b>{{ ('more') | trans }}</b></a>
+                                                                {% set linktour = ('tours.'~i~'.link') | trans  %}
+                                                                {% set linksitio = ('tours.'~i~'.sitios.'~m~'.link') | trans  %}
+                                                                <a id="verMas" class="btn botonEncuentralos letraBlanca center-block"
+                                                                   href="{{ path('tourlugar',{
+                                                                                                nomtour: linktour,
+                                                                                                nomlugar: linksitio,
+                                                                                                idtour: i,idsitio: m
+                                                                                            }) }}">
+                                                                    <b>{{ ('more') | trans }}</b>
+                                                                </a>
                                                             </div>
                                                         </div>
                                                     </div>

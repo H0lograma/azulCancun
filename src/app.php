@@ -30,5 +30,8 @@ $app->extend('translator', function($translator, $app) {
 
     return $translator;
 });
+$app->register(new Silex\Provider\RoutingServiceProvider());
+
+
 return $app;
 

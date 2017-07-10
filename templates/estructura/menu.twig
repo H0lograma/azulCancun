@@ -55,9 +55,11 @@
                                 {{ 'menu.op3'|trans }}
                             </a>
                             <ul class="dropdown-menu fondoAzul">
-                                <li><a href="{{ path('destino1') }}">Destino 1</a></li>
-                                <li><a href="{{ path('destino2') }}">Destino 2</a></li>
-                                <li><a href="{{ path('destino3') }}">Destino 3</a></li>
+                                {% set totd = ('destinos.0') | trans %}
+                                {% for i in range(1,totd) %}
+                                    {% set linkd = ('destinos.'~i~'.link') | trans %}
+                                    <li><a href="{{ path('destinos',{nomdest: linkd, iddestino: i}) }}">{{ ('destinos.'~i~'.nombre') | trans }}</a></li>
+                                {% endfor %}
 
                             </ul>
                         </li>

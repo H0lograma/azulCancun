@@ -46,7 +46,7 @@
                             <div class="row">
                                 <div class="col-sm-4 col-sm-offset-8">
                                     {% set link = ('paquetes.'~i~'.link') | trans %}
-                                    <a id="verMas" class="btn botonEncuentralos letraBlanca center-block" href="{{ path(link) }}"><b>{{ ('mas') | trans }}</b></a>
+                                    <a id="verMas" class="btn botonEncuentralos letraBlanca center-block" href="{{ path('paquetes',{nompaquete: link, idpaquete: i }) }}"><b>{{ ('mas') | trans }}</b></a>
                                 </div>
                             </div>
                         </div>
