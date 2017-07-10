@@ -17,3 +17,1907 @@ menu:
     op7: Términos de uso
     op8: Marcas registradas
     op9: Declaración de privacidad
+
+parrafoPie:
+    1: Copyright © 2014 Azul Cancun Vacations. All Rights Reserved - Webmaster.
+    2:  Any total or partial reproduction of this content is prohibited whithout written authorization from the owner.
+    3: It is the responsibillity of the hotel chain and / or property to guarantee the accuracy of the photographs shown.
+    4:  We are not responsible for inaccuracies in the photographs.
+
+llamaSin: Llama sin costo
+
+destino: Destiono
+llegada: Llegada
+cuartos: Cuartos
+adultos: Adultos
+ninos: Niños (1-17)
+encuentralos: Encuentralos
+
+indexTitulo1: Verdaderos Expertos en Vacaciones
+indexCont1: Poseemos un ojo por la perfección, un compromiso de calidad y atención a los detalles. Entendemos tus requerimentos y nos enorgullecemos de superar sus expectativas.
+            Si usted está planeando una conferencia, una reunión, un incentivo o un evento, o simplemente está planeando unas seguras y bien organizadas vacaciones; Ofrecemos valor
+            en sus viajes y servicios relacionados con los viajes porque ofrecemos el más alto y profesional nivel de servicio en todo el Caribe Mexicano.
+            Somos Azul Cancún, la empresa de gestión de destinos donde cada detalle se adapta a sus intereses. Con Azul Cancún te garantizamos nuestros guías expertos, transportación
+            privada del aeropuerto desde su llegada y salida, y el apoyo de nuestro personal de primera clase en el Caribe Mexicano.
+
+caract1:
+    titulo: Explorar
+    cont: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+caract2:
+    titulo: Enamorarse
+    cont: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+caract3:
+    titulo: Disfrutar
+    cont: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+caract4:
+    titulo: Viajar
+    cont: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+indexTitulo2: Elige tu destino!
+indexTitulo3: Complementa tu experiencia!
+
+contador:
+    text1: Búsquedas completadas
+    text2: Ellos ya vivieron la experiencia
+    text3: Satisfacción
+
+
+indexTitulo4: Servicio completamente personalizado
+indexCont4: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id accumsan odio. Suspendisse potenti. Aliquam et enim egestas ante efficitur volutpat sit amet in odio. Mauris metus urna, rutrum in
+            orci quis, elementum efficitur magna. Cras vitae placerat ligula. Quisque ex eros, accumsan ac nisl at, tempus hendrerit lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+            cubilia Curae.
+indexTitulo5: ¿Necesitas más información?
+
+formIndex:
+    campo1: Nombre completo
+    campo2: Teléfono
+    campo3: Correo
+    campo4: Ciudad
+    campo5: Comentarios
+    enviar: Enviar
+
+nosotros:
+    titulo: Azul Cancún
+    parrafo1: Azul Cancun vacations & DMC es un concepto innovador que ofrece soliciones y servicios de planificación para experiencias unicas de viaje en Cancún y Riviera Maya.
+    parrafo2: Azul Cancun Vacations & DMC Se presenta como una nueva opción para organizadores de reuniones, organizadores de eventos, organizadores de bodas o viajeros de ocio
+              que imaginan momentos memorables y resultados sobresalientes.
+    parrafo3: Desde unas vacaciones familiares llenas de acontecimientos hasta un sofisticado evento o un viaje de incentivos, nuestro creativo y capacitado equipo
+              transformará sus ideas en memorias únicas en su vida.
+    subtitulo1: Valores y Principios
+    lista1:
+        0: 4
+        1: Respeto e integridad
+        2: Compromiso total
+        3: Genuino interés en las necesidades de nuestros clientes
+        4: Comprensión de los deseos y sentimientos de nuestros clientes
+    subtitulo2: Nuestras Fortalezas
+    lista2:
+        0: 10
+        1: Servicio refinado y atención al detalle
+        2: Relación fuerte con los proveedores
+        3: Reputación
+        4: Programas a medida
+        5: Servicio personalizado
+        6: Normas de funcionamiento
+        7: Personal bilingüe
+        8: Respuesta inquebrantable
+        9: Proceso exhaustivo de entrevista y selección de proveedores
+        10: Comprender la importancia del retorno para la inversión
+
+contactMasInfo: Más Información
+contactFree: Siéntete libre de llamarnos
+formContact:
+    titulo: Departamento
+    op1: Grupos y eventos
+    op2: Planificación de vacaciones
+    op3: Bodas
+    op4: Webmaster
+
+
+
+wedding:
+    titulo: Romance a lo largo del Caribe Mexicano
+    parrafo1: Celebra tu amor con un viaje inolvidable. Con un lujo sin concesiones y una flexibilidad ilimitada, este destino próspero en el borde de las aguas cristalinas del
+              Caribe, hace de una boda de destino ideal. Un lugar perfecto donde el Caribe celestial y el México romántico se mezclan. La novia y el novio pueden disfrutar de
+              playas relajantes, deleitarse con manjares fabulosos, disfrutar de tratamientos de spa y alojarse en una villa junto al mar o en una lujosa habitación con
+              impresionantes vistas al océano.
+    parrafo2: Ya sea que elija la magia de un ritual maya tradicional o una simple ceremonia elegante bendecida por las aguas azules de sus fantásticas playas, México es el
+              escenario perfecto para su boda en el Caribe y la luna de miel. Deje que nuestro especialista le presente a una tierra antigua y refrescantemente nueva.
+    parrafo3: Trabajamos mano a mano con usted para crear un evento hermoso único que refleja su gusto y estilo. Nos aseguraremos de que el proceso de planificación lo mantenga
+              tranquilo, exceda sus expectativas y le deje a usted ya sus invitados llenos de recuerdos felices.
+    parrafo4: No importa cuáles sean los sueños de su boda, tenga la seguridad de que los haremos realidad.
+    subtitulo1: Servicios
+    lista1:
+        0: 7
+        1: Diseño y organización del evento
+        2: Asesoramiento profesional en todas las etapas y en la selección de servicios y proveedores
+        3: Transporte terrestre en base privada o compartida
+        4: Actividades y excursiones privadas o públicas
+        5: Alquiler de vacaciones
+        6: Reservaciones para cenar
+        7: Alquiler de autos
+    formTitulo: Más Información
+
+dmc:
+    titulo: Gestión de Eventos Corporativos
+    parrafo1: Ya sea una conferencia, programa de incentivos, AGM, ceremonia de premiación o lanzamiento de productos; El factor crítico del éxito es la planificación meticulosa.
+    parrafo2: Nuestro dedicado equipo de expertos, con su servicio y enfoque de calidad, se comprometerá plenamente a cada proyecto en el que trabajemos,
+              independientemente de su escala, complejidad o presupuesto, teniendo como único objetivo la creación de eventos excepcionales.
+
+    parrafo3: Con un espíritu joven y dinámico, respaldado por el conocimiento profesional del Caribe y la industria del turismo, en Azul Cancún planeamos y trabajamos en cada
+              detalle para crear experiencias que realmente sumergen a los participantes en una experiencia maravillosa y aseguren que todo lo que hagamos excederá a nuestros
+              clientes esperanzas de heredar.
+    subtitulo1: Servicios
+    lista1:
+        0: 13
+        1: Diseño y planificación de eventos
+        2: Asesoramiento profesional en todas las etapas y en la selección de servicios y proveedores
+        3: Transporte terrestre
+        4: Excursiones en grupo y actividades
+        5: Actividades complementarias
+        6: Cena en los diferentes restaurantes de la ciudad
+        7: Eventos especiales en locales exclusivos fuera de la sede
+        8: Servicio fuera del sitio
+        9: Decoración
+        10: Audiovisual
+        11: Entretenimiento
+        12: Actividades de team building
+        13: Regalos
+    formTitulo: Más Información
+
+transp:
+    titulo: Air Transportation
+    subtitulo1: Welcome to the dazzling Mexican Caribbean!
+    subtitulo2: Private Arrival Transfer
+    parrafo1: We understand the importance of the Airport greeting & meeting as it will be yout first contact with our Mexican
+              Caribbean Paradise. Therefore, our group of friendly and professional representatives will make sure this
+              experience is as pleasant as arriving home.
+    subtitulo3: Services
+    lista1:
+        0: 9
+        1: Customized pre-assignation of vehicles according to number of guests traveling on each flight
+        2: Electronic arrival confirmation coupon
+        3: Flight status tracking
+        4: Meeting and greeting service
+        5: Airport signs displaying your name or company logo
+        6: Private transportation from the airport to your hotel on comfortable air-conditioned vehicles
+        7: Bottled water on board
+        8: Follow up with airline representatives in case of loss luggage
+        9: Airport taxes
+    subtitulo4: Private Departure Transfers
+    parrafo4: A flawless departure experience will be the perfect ending of a great vacation. Our attentive and friendly
+              chauffeurs will safely and punctually drive you from your hotel to the international Airport of Cancun.
+    lista2:
+        0: 5
+        1: Customized pre-assignation of vehicles according to the number of group guests traveling on each flight
+        2: Electronic departure notice
+        3: Private transportation from your hotel to the airport on comfortable air-conditioned vehicles
+        4: Bottled water on board
+        5: Airport taxes
+    parrafo6: Transportation on a shared basis can be arranged upon request
+    formTitulo: More information
+
+acercade: About
+acercahotel: About the hotel
+mas: More
+incluidos: Includes
+servicios: services
+solicitar:
+    titulo: Request
+    link: cotiza
+procesar: Submit
+
+destinos:
+    0: 3 # no utilizado
+    1:
+        nombre: Destino 1
+        link: destino-1
+        hoteles:
+            0: 3
+            1:
+                nombre: Hotel 1.1
+                categorias:
+                    0: 4
+                    1: All inclusive
+                    2: Family Friendly
+                    3: Beach view
+                    4: Spa
+                imagen: destino-image.jpg
+                galeria:
+                    0: 7
+                    1: packages-image.jpg
+                    2: packages-image-02.jpg
+                    3: packages-image-03.jpg
+                    4: packages-image-04.jpg
+                    5: packages-image.jpg
+                    6: packages-image-02.jpg
+                    7: packages-image-03.jpg
+                texto: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit,
+                        tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque
+                        viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi.
+                descripcion: Lorem 2 ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit,
+                              tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque
+                              viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi.
+                link: hotel-1-1
+                servicios:
+                    0: 20
+                    1: Food & Drinks
+                    2: Room Service 24 hours
+                    3: Restaurants
+                    4: Wireless Internet
+                    5: Massages
+                    6: Laundry
+                    7: Baby Sitter
+                    8: Concierge
+                    9: Kids club
+                    10: Dry Cleaning
+                    11: Food & Drinks
+                    12: Room Service 24 hours
+                    13: Restaurants
+                    14: Wireless Internet
+                    15: Massages
+                    16: Laundry
+                    17: Baby Sitter
+                    18: Concierge
+                    19: Kids club
+                    20: Dry Cleaning
+            2:
+                nombre: Hotel 1.2
+                categorias:
+                    0: 3
+                    1: Family Friendly
+                    2: Beach view
+                    3: Spa
+                imagen: destino-image.jpg
+                galeria:
+                    0: 7
+                    1: packages-image.jpg
+                    2: packages-image-02.jpg
+                    3: packages-image-03.jpg
+                    4: packages-image-04.jpg
+                    5: packages-image.jpg
+                    6: packages-image-02.jpg
+                    7: packages-image-03.jpg
+                texto: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit,
+                        tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque
+                        viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi.
+                descripcion: Lorem 2 ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit,
+                              tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque
+                              viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi.
+                link: hotel-1-2
+                servicios:
+                    0: 18
+                    1: Food & Drinks
+                    2: Room Service 24 hours
+                    3: Restaurants
+                    4: Wireless Internet
+                    5: Massages
+                    6: Laundry
+                    7: Baby Sitter
+                    8: Concierge
+                    9: Kids club
+                    10: Dry Cleaning
+                    11: Food & Drinks
+                    12: Room Service 24 hours
+                    13: Restaurants
+                    14: Wireless Internet
+                    15: Massages
+                    16: Laundry
+                    17: Baby Sitter
+                    18: Concierge
+            3:
+                nombre: Hotel 1.3
+                categorias:
+                    0: 4
+                    1: All inclusive
+                    2: Family Friendly
+                    3: Beach view
+                    4: Spa
+                imagen: destino-image.jpg
+                galeria:
+                    0: 7
+                    1: packages-image.jpg
+                    2: packages-image-02.jpg
+                    3: packages-image-03.jpg
+                    4: packages-image-04.jpg
+                    5: packages-image.jpg
+                    6: packages-image-02.jpg
+                    7: packages-image-03.jpg
+                texto: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit,
+                        tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque
+                        viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi.
+                descripcion: Lorem 2 ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit,
+                              tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque
+                              viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi.
+                link: hotel-1-3
+                servicios:
+                    0: 15
+                    1: Food & Drinks
+                    2: Room Service 24 hours
+                    3: Restaurants
+                    4: Wireless Internet
+                    5: Massages
+                    6: Laundry
+                    7: Baby Sitter
+                    8: Concierge
+                    9: Kids club
+                    10: Dry Cleaning
+                    11: Food & Drinks
+                    12: Room Service 24 hours
+                    13: Restaurants
+                    14: Wireless Internet
+                    15: Massages
+        slider: destino-slide.jpg
+        clase-slide: slide-destino-1
+
+    2:
+        nombre: Destino 2
+        link: destino-2
+        hoteles:
+            0: 1
+            1:
+                nombre: Hotel 2.1
+                categorias:
+                    0: 3
+                    1: All inclusive
+                    2: Family Friendly
+                    3: Spa
+                imagen: destino-image.jpg
+                galeria:
+                    0: 7
+                    1: packages-image.jpg
+                    2: packages-image-02.jpg
+                    3: packages-image-03.jpg
+                    4: packages-image-04.jpg
+                    5: packages-image.jpg
+                    6: packages-image-02.jpg
+                    7: packages-image-03.jpg
+                texto: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit,
+                        tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque
+                        viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi.
+                descripcion: Lorem 2 ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit,
+                              tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque
+                              viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi.
+                link: hotel-2-1
+                servicios:
+                    0: 17
+                    1: Food & Drinks
+                    2: Room Service 24 hours
+                    3: Restaurants
+                    4: Wireless Internet
+                    5: Massages
+                    6: Laundry
+                    7: Baby Sitter
+                    8: Concierge
+                    9: Kids club
+                    10: Dry Cleaning
+                    11: Food & Drinks
+                    12: Room Service 24 hours
+                    13: Restaurants
+                    14: Wireless Internet
+                    15: Massages
+                    16: Laundry
+                    17: Baby Sitter
+        slider: destino-slide.jpg
+        clase-slide: slide-destino-2
+    3:
+        nombre: Destino 3
+        link: destino-3
+        hoteles:
+            0: 2
+            1:
+                nombre: Hotel 3.1
+                categorias:
+                    0: 3
+                    1: All inclusive
+                    2: Family Friendly
+                    3: Beach view
+                imagen: destino-image.jpg
+                galeria:
+                    0: 7
+                    1: packages-image.jpg
+                    2: packages-image-02.jpg
+                    3: packages-image-03.jpg
+                    4: packages-image-04.jpg
+                    5: packages-image.jpg
+                    6: packages-image-02.jpg
+                    7: packages-image-03.jpg
+                texto: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit,
+                        tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque
+                        viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi.
+                descripcion: Lorem 2 ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit,
+                              tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque
+                              viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi.
+                link: hotel-3-1
+                servicios:
+                    0: 16
+                    1: Food & Drinks
+                    2: Room Service 24 hours
+                    3: Restaurants
+                    4: Wireless Internet
+                    5: Massages
+                    6: Laundry
+                    7: Baby Sitter
+                    8: Concierge
+                    9: Kids club
+                    10: Dry Cleaning
+                    11: Food & Drinks
+                    12: Room Service 24 hours
+                    13: Restaurants
+                    14: Wireless Internet
+                    15: Massages
+                    16: Laundry
+
+            2:
+                nombre: Hotel 3.2
+                categorias:
+                    0: 4
+                    1: All inclusive
+                    2: Family Friendly
+                    3: Beach view
+                    4: Spa
+                imagen: destino-image.jpg
+                galeria:
+                    0: 7
+                    1: packages-image.jpg
+                    2: packages-image-02.jpg
+                    3: packages-image-03.jpg
+                    4: packages-image-04.jpg
+                    5: packages-image.jpg
+                    6: packages-image-02.jpg
+                    7: packages-image-03.jpg
+                texto: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit,
+                        tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque
+                        viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi.
+                descripcion: Lorem 2 ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit,
+                              tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque
+                              viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi.
+                link: hotel-3-2
+                servicios:
+                    0: 15
+                    1: Food & Drinks
+                    2: Room Service 24 hours
+                    3: Restaurants
+                    4: Wireless Internet
+                    5: Massages
+                    6: Laundry
+                    7: Baby Sitter
+                    8: Concierge
+                    9: Kids club
+                    10: Dry Cleaning
+                    11: Food & Drinks
+                    12: Room Service 24 hours
+                    13: Restaurants
+                    14: Wireless Internet
+                    15: Massages
+        slider: destino-slide.jpg
+        clase-slide: slide-destino-3
+
+tours:
+  0: 5
+  1:
+    nombre: "Archaeological Tours"
+    link: archaeological-tours
+    sitios:
+      0: 4
+      1:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: coba
+        nombre: "Coba"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      2:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: chichen-itza
+        nombre: "Chichen Itza"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      3:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: tulum
+        nombre: "Tulum"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      4:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: ek-balam-and-cenote-maya
+        nombre: "Ek Balam & Cenote Maya"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+  2:
+    nombre: "Aquatic Tours"
+    link: aquatic-tours
+    sitios:
+      0: 11
+      1:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: jungle-tour
+        nombre: "Jungle tour"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      2:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: swimming-with-dolphins
+        nombre: "Swimming with dolphins"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      3:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: catamaran-and-snorkel
+        nombre: "Catamaran and Snorkel"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      4:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: diving
+        nombre: "Diving"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      5:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: diving-in-cozumel
+        nombre: "Diving in Cozumel"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      6:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: diving-in-cenote
+        nombre: "Diving in Cenote"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      7:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: diving-in-cancuns-underwater-art-museum
+        nombre: "Diving in Cancun's Underwater Art Museum"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      8:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: adventure-snorkel
+        nombre: "Adventure Snorkel"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      9:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: adventure-on-the-water
+        nombre: "Adventure on the water"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      10:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: maroma-marina
+        nombre: "Maroma marina"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      11:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: punta-venado
+        nombre: "Punta venado"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+  3:
+    nombre: "Adventure Tours"
+    link: adventure-tours
+    sitios:
+      0: 5
+      1:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: coba-maya-encounter
+        nombre: "Coba Maya Encounter"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      2:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: maya-jungle-tulum
+        nombre: "Maya Jungle Tulum"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      3:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: adventure-villa-maya-in-tulum-and-coba
+        nombre: "Adventure Villa Maya in Tulum and Coba"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      4:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: extreme-maya
+        nombre: "Extreme maya"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      5:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: maya-adventure
+        nombre: "Maya Adventure"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+  4:
+    nombre: "Theme Parks"
+    link: theme-parks
+    sitios:
+      0: 7
+      1:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: secret-river
+        nombre: "Secret river"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      2:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: xel-ha
+        nombre: "Xel-Ha"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      3:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: xcaret
+        nombre: "Xcaret"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      4:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: xenses
+        nombre: "Xenses"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      5:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: garrafon-isla-mujeres
+        nombre: "Garrafon Isla Mujeres"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      6:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: emotions-native-park
+        nombre: "Emotions Native Park"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      7:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: xplore-and-xplore-fire
+        nombre: "Xplore & Xplore Fire"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+  5:
+    nombre: Golf
+    link: golf
+    sitios:
+      0: 7
+      1:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: chameleon-mayakoba
+        nombre: "Chameleon Mayakoba"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      2:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "moon-palace"
+        link: Moon Palace
+        nombre: "Maya Jungle Tulum"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      3:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: grand-coral
+        nombre: "Grand Coral"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      4:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: riviera-cancun
+        nombre: "Riviera Cancun"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      5:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: iberostar-cancun
+        nombre: "Iberostar Cancun"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      6:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: hard-rock-riviera-maya
+        nombre: "Hard Rock Riviera Maya"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+      7:
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, volutpat nisi."
+        galeria:
+          0: 5
+          1: tour-image.jpg
+          2: tour-image.jpg
+          3: tour-image.jpg
+          4: tour-image.jpg
+          5: tour-image.jpg
+        imagen: tour-image.jpg
+        incluidos:
+          0: 20
+          1: "Food & Drinks"
+          10: "Dry Cleaning"
+          11: "Food & Drinks"
+          12: "Room Service 24 hours"
+          13: Restaurants
+          14: "Wireless internet"
+          15: Massages
+          16: Laundry
+          17: Babysitter
+          18: Concierge
+          19: "Kids Club"
+          2: "Room Service 24 hours"
+          20: "Dry Cleaning"
+          3: Restaurants
+          4: "Wireless internet"
+          5: Massages
+          6: Laundry
+          7: Babysitter
+          8: Concierge
+          9: "Kids Club"
+        link: playa-mujeres
+        nombre: "Playa Mujeres"
+        texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in, nisi."
+
+  parrafo: "Lorem a ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa. Integer sed faucibus velit, tincidunt dictum diam.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet
+            nisi sodales, bibendum velit in, volutpat nisi."
+
+paquetes:
+  0: 3
+  1:
+    titulo: Package All Inclusive
+    incluidos:
+      0: 4
+      1:
+        titulo: Flights
+        texto: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+               Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+               vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+               volutpat nisi.
+        imagen: packages-icon-03.png
+      2:
+        titulo: Transportation
+        texto:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+                Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+                vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+                volutpat nisi.
+        imagen: packages-icon.png
+      3:
+        titulo: Hotel
+        texto:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+                Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+                vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+                volutpat nisi.
+        imagen: packages-icon-04.png
+      4:
+        titulo: Tours
+        texto:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+                Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+                vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+                volutpat nisi.
+        imagen: packages-icon-02.png
+    imagen: packages-image.jpg
+    galeria:
+      0: 6
+      1: packages-image.jpg
+      2: packages-image.jpg
+      3: packages-image.jpg
+      4: packages-image.jpg
+      5: packages-image.jpg
+      6: packages-image.jpg
+    texto:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+            Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+            vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+            volutpat nisi.
+    descripcion: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+                 Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+                 vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+                 volutpat nisi.
+    link: all-inclusive
+  2:
+    titulo: Package 2
+    incluidos:
+      0: 3
+      1:
+        titulo: Flights
+        texto: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+               Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+               vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+               volutpat nisi.
+        imagen: packages-icon-03.png
+      2:
+        titulo: Hotel
+        texto:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+                Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+                vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+                volutpat nisi.
+        imagen: packages-icon-04.png
+      3:
+        titulo: Tours
+        texto:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+                Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+                vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+                volutpat nisi.
+        imagen: packages-icon-02.png
+    imagen: packages-image.jpg
+    galeria:
+      0: 6
+      1: packages-image.jpg
+      2: packages-image.jpg
+      3: packages-image.jpg
+      4: packages-image.jpg
+      5: packages-image.jpg
+      6: packages-image.jpg
+    texto:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+            Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+            vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+            volutpat nisi.
+    descripcion: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+                 Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+                 vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+                 volutpat nisi.
+    link: paquete-2
+  3:
+    titulo: Package 3
+    incluidos:
+      0: 3
+      1:
+        titulo: Flights
+        texto: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+               Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+               vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+               volutpat nisi.
+        imagen: packages-icon-03.png
+      2:
+        titulo: Transportation
+        texto:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+                Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+                vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+                volutpat nisi.
+        imagen: packages-icon.png
+      3:
+        titulo: Hotel
+        texto:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+                Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+                vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+                volutpat nisi.
+        imagen: packages-icon-04.png
+    imagen: packages-image.jpg
+    galeria:
+      0: 6
+      1: packages-image.jpg
+      2: packages-image.jpg
+      3: packages-image.jpg
+      4: packages-image.jpg
+      5: packages-image.jpg
+      6: packages-image.jpg
+    texto:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+            Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+            vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+            volutpat nisi.
+    descripcion: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis urna vel libero feugiat porta quis at massa.
+                 Integer sed faucibus velit, tincidunt dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+                 vel nisi et gravida. In fringilla scelerisque viverra. Suspendisse potenti. Phasellus sit amet nisi sodales, bibendum velit in,
+                 volutpat nisi.
+    link: paquete-3
+
+cotizaciones:
+  titulo: "Requesting Quotation"
+  parrafo: "If you want to request more information for your next vacation. Please send us the following information"
+  anio: Year
+  mes: Month
+  dia: Day
+  enviar: Submit
+  false: false
+  si: Yes
+  no: No
+  infoPersonal:
+    titulo: "Personal Information"
+    1: "Full Name"
+    10: "Phone Number"
+    11: "Area code"
+    12: "How did you hear about us?"
+    13: "What is your dead line?"
+    14: Request
+    2: E-mail
+    3: Address
+    4: "Address line 1"
+    5: "Address line 2"
+    6: City
+    7: State
+    8: "Zip code"
+    9: Country
+  infoCotizacion:
+    titulo: "Quotation Info"
+    1: "Destination(s) considered"
+    2: "Dates from"
+    3: "Dates to"
+    4: "No. of Guests"
+    5: "Alternative Arrival"
+    6: "Alternative Departure"
+  transportacion:
+    titulo: Transportation
+    1: "Arrival Transfer"
+    2: "Departure Transfer"
+    3: "Specific Requirements i.e Coach, Minibus, Limo"
+    4: "Is there any other information regarding your Transfer requirements?"
+  acomodado:
+    titulo: Accomodation
+    1: "Has Hotel been Secured"
+  tours:
+    titulo: Tours
+    1: "No. of Excursions"
+    10: Sports
+    11: Educational
+    12: Fun
+    13: Mixed
+    14: Safari
+    15: "Team Building"
+    16: "Extreme Spots"
+    17: Sightseeing
+    18: "Dates of Excursions"
+    19: "Is there any other information regarding your excursion requirements?"
+    2: "Half Day"
+    20: "Additional Information"
+    3: "Full Day"
+    4: "Type of excursions"
+    5: Cultural
+    6: Activity
+    7: Shopping
+    8: Beach
+    9: Golf
+
+
