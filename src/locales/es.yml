@@ -17,3 +17,42 @@ menu:
     op7: Términos de uso
     op8: Marcas registradas
     op9: Declaración de privacidad
+
+parrafoPie:
+    1: Copyright © 2014 Azul Cancun Vacations. All Rights Reserved - Webmaster.
+    2:  Any total or partial reproduction of this content is prohibited whithout written authorization from the owner.
+    3: It is the responsibillity of the hotel chain and / or property to guarantee the accuracy of the photographs shown.
+    4:  We are not responsible for inaccuracies in the photographs.
+
+llamaSin: Llama sin costo
+
+destino: Destiono
+llegada: Llegada
+cuartos: Cuartos
+adultos: Adultos
+ninos: Niños (1-17)
+encuentralos: Encuentralos
+
+indexTitulo1: Verdaderos Expertos en Vacaciones
+indexCont1: Poseemos un ojo por la perfección, un compromiso de calidad y atencion a los detalles. Entendremos tus requerimentos y nos enorgullecemos de superar sus expectativas.
+            Si usted está planeando una conferencia, una reunión, un incentivo o un evento, o simplemente está planeando unas seguras y bien organizadas vacaciones; Ofrecemos valor
+            en sus viajes y servicios relacionados con los viajes porque ofrecemos el más alto y profesional nivel de servicio en todo el Caribe Mexicano.
+            Somos Azul Cancún, la empresa de gestión de destinos donde cada detalle se adapta a sus intereses. Con Azul Cancún te garantizamos nuestros guías expertos, transportación
+            privada del aeropuerto desde su llegada y salida, y el apoyo de nuestro personal de primera clase en el Caribe Mexicano.
+
+caract1:
+    titulo: Explor
+    cont: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+caract2:
+    titulo: Fall in love
+    cont: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+caract3:
+    titulo: Enjoy
+    cont: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+caract4:
+    titulo: Travel
+    cont: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+
+indexTitulo2: Choose your destination!
+indexTitulo3: Complement your experience!
