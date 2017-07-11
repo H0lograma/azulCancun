@@ -14,6 +14,7 @@ menu:
     op6:
         0: ENG
         1: ESP
+        link: es
     op7: Terms of Use
     op8: Trademarks
     op9: Privacy Statement
@@ -33,12 +34,14 @@ adultos: Adult
 ninos: Child (1-17)
 encuentralos: Find Them
 
-indexTitulo1: Real Vacation Experts
-indexCont1: We have an eye for perfection, a commitment to quality and attention to detail. We understand your requirements and take pride in exceeding your expectations.
-            Whether you are planning a conference, a meeting, an incentive or an event, or you are just planning a safe and well organized vacation; we deliver value on
-            your travel and travel related services because we offer the highest and most professional level of service throughout the Mexican Caribbean.
-            We are Azul Cancun, the destination management company where every detail is customized to your interests. With Azul Cancun you are guaranteed our expert local
-            guides, private airport transfer on arrival and departure, and the support of our top-notch staff at the Mexican Caribbean.
+indexTitulo1: Welcome to Azul Cancún Vacations & DMC!
+indexCont1: "We are the best option when it comes to plan the greatest and funniest vacations!
+           Imagine your next trip to the multifaceted Mexican Caribbean! With our support, you will have the most enjoyable vacation to this Mayan destination."
+
+indexCont2: "Whether it is a family vacation, couple getaway, a friend or family reunion, any important celebrations or just a weekend escape; Cancún and Riviera
+            Maya have countless options in amazing resorts, unique attractions,  restaurants, hottest night-clubs and the most important: dazzling white sand beaches
+            framed by clear blue skies and lush Mayan jungle."
+
 
 caract1:
     titulo: Explor
@@ -64,9 +67,8 @@ contador:
 
 
 indexTitulo4: Fully customized service
-indexCont4: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id accumsan odio. Suspendisse potenti. Aliquam et enim egestas ante efficitur volutpat sit amet in odio. Mauris metus urna, rutrum in
-            orci quis, elementum efficitur magna. Cras vitae placerat ligula. Quisque ex eros, accumsan ac nisl at, tempus hendrerit lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-            cubilia Curae.
+indexCont4: "Just leave everything in our hands! Our experienced team will work with you designing the perfect program with the best tour and activities at the most competitive prices.
+             Contact us and ask for our special promotions!"
 indexTitulo5: Do you need more info?
 
 formIndex:
@@ -79,32 +81,38 @@ formIndex:
 
 nosotros:
     titulo: Azul Cancun
-    parrafo1: Azul Cancun Vacations & DMC is an innovative concept that offers solutions and planning services for unique travel
-              experiences in Cancun and Riviera Maya.
-    parrafo2: Azul Cancun Vacatons & DMC arises as a new option for Meeting Planners, Event Organizers, Wedding Planners or
-              leisure travelers who envision memorable moments and outstanding results.
-    parrafo3: From an eventful family vacation to a sophisticated signature event or an incentive trip, our creative and capable
-              team will transform yout ideas in once-in-a lifetime memories.
-    subtitulo1: Values & Principles
+    parrafo1: "We are the Destination Management Company that better combines its great knowledge of Cancún and Riviera Maya, the passion for creating unique vacation experiences
+                and true interest in providing the best solutions to our customers."
+    subtitulo1: Our Vision
+    parrafo2: "To be a leading DMC in Mexico and the Caribbean recognized for the reliability it generates, for the levels of customer service and for the integral development of
+                its employees who always feel motivated to fulfill their maximum potential and generate the highest profits as a result of Human, creative, enthusiastic and team
+                environment that is lived in the company."
+    subtitulo2: "Our Mission Statement"
+    parrafo3: "We are an agency that provides integral solutions in tourist services oriented to achieve total satisfaction and success for our clients of groups, events, conventions,
+                weddings and vacations.
+               The most important ingredients of our product are the true interest in the client's goals, dedication and passion for what we do as well as the integral development
+               and experience of our human capital."
+    parrafo4: "We materialize results that surpass expectations in client experiences and financial performance; Designing and operating programs with high service standards and
+              generating greater benefits for all."
     lista1:
         0: 4
         1: Respect and integrity
         2: Total commitment
         3: Genuine interest in our client's needs
         4: Understanding of our client´s desires and feelings
-    subtitulo2: Our Strengths
+    subtitulo3: Our Values
     lista2:
         0: 10
-        1: Refined service and Attention to detail
-        2: Strong relationship with suppliers
-        3: Reputation
-        4: Tailor made programs
-        5: Personalized service
-        6: Standards of Operation
-        7: Bi-Lingual staff
-        8: Uncompromising Resposiveness
-        9: Thorough supplier interview and selection processes
-        10: Understanding the importance of return for investment
+        1: Commitment
+        2: Expertise in the destination services
+        3: Ethics
+        4: Pride
+        5: Quality in interpersonal relationships
+        6: Business relationships with a human approach
+        7: Consciousness of success and prosperity
+        8: Respect and dignity
+        9: Continuous improvement
+        10: Win-win
 
 contactMasInfo: More Information
 contactFree: Feel free to call us

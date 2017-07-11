@@ -14,6 +14,7 @@ menu:
     op6:
         0: ESP
         1: ENG
+        link: en
     op7: Términos de uso
     op8: Marcas registradas
     op9: Declaración de privacidad
@@ -33,13 +34,13 @@ adultos: Adultos
 ninos: Niños (1-17)
 encuentralos: Encuentralos
 
-indexTitulo1: Verdaderos Expertos en Vacaciones
-indexCont1: Poseemos un ojo por la perfección, un compromiso de calidad y atención a los detalles. Entendemos tus requerimentos y nos enorgullecemos de superar sus expectativas.
-            Si usted está planeando una conferencia, una reunión, un incentivo o un evento, o simplemente está planeando unas seguras y bien organizadas vacaciones; Ofrecemos valor
-            en sus viajes y servicios relacionados con los viajes porque ofrecemos el más alto y profesional nivel de servicio en todo el Caribe Mexicano.
-            Somos Azul Cancún, la empresa de gestión de destinos donde cada detalle se adapta a sus intereses. Con Azul Cancún te garantizamos nuestros guías expertos, transportación
-            privada del aeropuerto desde su llegada y salida, y el apoyo de nuestro personal de primera clase en el Caribe Mexicano.
+indexTitulo1: Bienvenidos a Azul Cancún Vacations & DMC!
+indexCont1: "¡Somos la mejor opción cuando se trata de planear las vacaciones más espectaculares y divertidas!
+             ¡Imagina tu próximo viaje al multifacético Caribe Mexicano! Con nuestro apoyo, podrás organizar las vacaciones más placenteras a este destino maya."
 
+indexCont2: "Si se trata de unas vacaciones en familia, una escapada de pareja, una reunión familiar o con amigos, cualquier celebración importante o simplemente
+            una escapada de fin de semana; Cancún y la Riviera Maya tienen innumerables opciones en increíbles resorts, atracciones únicas, restaurantes, clubes
+            nocturnos y lo más importante: deslumbrantes playas de arena blanca enmarcadas por cielos azules y la exuberante selva maya."
 caract1:
     titulo: Explorar
     cont: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -63,9 +64,8 @@ contador:
 
 
 indexTitulo4: Servicio completamente personalizado
-indexCont4: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id accumsan odio. Suspendisse potenti. Aliquam et enim egestas ante efficitur volutpat sit amet in odio. Mauris metus urna, rutrum in
-            orci quis, elementum efficitur magna. Cras vitae placerat ligula. Quisque ex eros, accumsan ac nisl at, tempus hendrerit lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-            cubilia Curae.
+indexCont4: "¡Deja todo en nuestras manos! Nuestro equipo experimentado trabajará contigo diseñando el programa perfecto incluyendo los mejores tours y actividades con los precios más competitivos.
+             ¡Ponte en contacto con nosotros y pregunta por nuestras promociones especiales!"
 indexTitulo5: ¿Necesitas más información?
 
 formIndex:
@@ -78,31 +78,41 @@ formIndex:
 
 nosotros:
     titulo: Azul Cancún
-    parrafo1: Azul Cancun vacations & DMC es un concepto innovador que ofrece soliciones y servicios de planificación para experiencias unicas de viaje en Cancún y Riviera Maya.
-    parrafo2: Azul Cancun Vacations & DMC Se presenta como una nueva opción para organizadores de reuniones, organizadores de eventos, organizadores de bodas o viajeros de ocio
-              que imaginan momentos memorables y resultados sobresalientes.
-    parrafo3: Desde unas vacaciones familiares llenas de acontecimientos hasta un sofisticado evento o un viaje de incentivos, nuestro creativo y capacitado equipo
-              transformará sus ideas en memorias únicas en su vida.
-    subtitulo1: Valores y Principios
+    parrafo1: "Somos la Compañía de Gestión de Destinos que mejor combina su gran conocimiento de Cancún y la Riviera Maya, la pasión por crear experiencias de vacaciones únicas y
+              verdadero interés en brindar las mejores soluciones a nuestros clientes."
+    subtitulo1: Nuestra Visión
+    parrafo2: "Ser un DMC líder en México y el Caribe reconocido por la confiabilidad que genera, por los niveles
+                de servicio al cliente y por el desarrollo integral de sus colaboradores quienes siempre se sienten
+                motivados para desempeñar su máximo potencial y a generar las mayores ganancias como
+                resultado del entorno humano, creativo, entusiasta y de equipo que se vive en la empresa"
+    subtitulo2: "Nuestra Misión"
+    parrafo3: "Somos una agencia que provee soluciones integrales en servicios turísticos orientadas a lograr la
+                satisfacción y el éxito total para nuestros clientes de grupos, eventos, convenciones, bodas y vacaciones.
+               Los ingredientes más importantes de nuestro producto son el interés verdadero por los objetivos
+               del cliente, la dedicación y pasión por lo que hacemos así como el desarrollo integral y experiencia
+               de nuestro capital humano."
+    parrafo4: "Materializamos resultados que superan lo esperado en experiencias del cliente y desempeño
+                financiero; diseñando y operando programas con altos estándares de servicio y generando
+                mayores beneficios para todos."
     lista1:
         0: 4
         1: Respeto e integridad
         2: Compromiso total
         3: Genuino interés en las necesidades de nuestros clientes
         4: Comprensión de los deseos y sentimientos de nuestros clientes
-    subtitulo2: Nuestras Fortalezas
+    subtitulo3: Nuestros Valores
     lista2:
         0: 10
-        1: Servicio refinado y atención al detalle
-        2: Relación fuerte con los proveedores
-        3: Reputación
-        4: Programas a medida
-        5: Servicio personalizado
-        6: Normas de funcionamiento
-        7: Personal bilingüe
-        8: Respuesta inquebrantable
-        9: Proceso exhaustivo de entrevista y selección de proveedores
-        10: Comprender la importancia del retorno para la inversión
+        1: Compromiso
+        2: Experiencia en los servicios de destino
+        3: Ética
+        4: Orgullo
+        5: Calidad en las relaciones interpersonales
+        6: Relaciones de negocios con un enfoque humano
+        7: Conciencia de éxito y prosperidad
+        8: Respeto y dignidad
+        9: Mejora continua
+        10: Ganar-ganar
 
 contactMasInfo: Más Información
 contactFree: Siéntete libre de llamarnos
@@ -167,45 +177,45 @@ dmc:
 
 transp:
     titulo: Air Transportation
-    subtitulo1: Welcome to the dazzling Mexican Caribbean!
-    subtitulo2: Private Arrival Transfer
-    parrafo1: We understand the importance of the Airport greeting & meeting as it will be yout first contact with our Mexican
-              Caribbean Paradise. Therefore, our group of friendly and professional representatives will make sure this
-              experience is as pleasant as arriving home.
-    subtitulo3: Services
+    subtitulo1: ¡Bienvenidos al deslumbrante Caribe Mexicano!
+    subtitulo2: Transferencia de llegada privada
+    parrafo1: Entendemos la importancia del saludo y reunión del Aeropuerto ya que será su primer contacto con nuestro Paraíso Caribeño Mexicano.
+              Por lo tanto, nuestro grupo de representantes amistosos y profesionales se asegurará de que esta experiencia sea tan agradable como
+              llegar a casa.
+    subtitulo3: Servicios
     lista1:
         0: 9
-        1: Customized pre-assignation of vehicles according to number of guests traveling on each flight
-        2: Electronic arrival confirmation coupon
-        3: Flight status tracking
-        4: Meeting and greeting service
-        5: Airport signs displaying your name or company logo
-        6: Private transportation from the airport to your hotel on comfortable air-conditioned vehicles
-        7: Bottled water on board
-        8: Follow up with airline representatives in case of loss luggage
-        9: Airport taxes
-    subtitulo4: Private Departure Transfers
-    parrafo4: A flawless departure experience will be the perfect ending of a great vacation. Our attentive and friendly
-              chauffeurs will safely and punctually drive you from your hotel to the international Airport of Cancun.
+        1: Pre-asignación personalizada de vehículos de acuerdo al número de huéspedes que viajan en cada vuelo
+        2: Cupón electrónico de confirmación de llegada
+        3: Seguimiento del estado del vuelo
+        4: Servicio de reuniones y saludo
+        5: Señales de aeropuerto que muestran su nombre o logotipo de la empresa
+        6: Transporte privado desde el aeropuerto hasta su hotel en confortables vehículos con aire acondicionado
+        7: Agua embotellada a bordo
+        8: Seguimiento con representantes de aerolíneas en caso de pérdida de equipaje
+        9: Impuestos de aeropuerto
+    subtitulo4: Traslados de salida privados
+    parrafo4: Una experiencia de salida impecable será el final perfecto de unas fantásticas vacaciones. Nuestros chóferes atentos y amistosos
+              le llevarán de manera segura y puntual desde su hotel al Aeropuerto Internacional de Cancún.
     lista2:
         0: 5
-        1: Customized pre-assignation of vehicles according to the number of group guests traveling on each flight
-        2: Electronic departure notice
-        3: Private transportation from your hotel to the airport on comfortable air-conditioned vehicles
-        4: Bottled water on board
-        5: Airport taxes
-    parrafo6: Transportation on a shared basis can be arranged upon request
-    formTitulo: More information
+        1: Pre-asignación personalizada de vehículos de acuerdo al número de invitados de grupo que viajan en cada vuelo
+        2: Aviso de salida electrónica
+        3: Transporte privado desde su hotel hasta el aeropuerto en confortables vehículos con aire acondicionado
+        4: Agua embotellada a bordo
+        5: Impuestos de aeropuerto
+    parrafo6: El transporte en una base compartida se puede arreglar sobre la petición
+    formTitulo: Más Información
 
 acercade: About
 acercahotel: About the hotel
-mas: More
-incluidos: Includes
-servicios: services
+mas: Más
+incluidos: Incluidos
+servicios: Servicios
 solicitar:
-    titulo: Request
+    titulo: Solicitar
     link: cotiza
-procesar: Submit
+procesar: Enviar
 
 destinos:
     0: 3 # no utilizado

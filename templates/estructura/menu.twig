@@ -82,13 +82,15 @@
                         </li>
 
                         <li class="dropdown menuOpcionIdioma">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            <a href="{{ global.request.uri }}" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                aria-haspopup="true" aria-expanded="false">
                                 <em>{{ 'menu.op6.0'|trans }}</em>
                                 <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu fondoAzul">
-                                <li><a href="#"><em>{{ 'menu.op6.1'|trans }}</em></a></li>
+                                {% set url1 =  global.request.uri | split('/') %}
+                                {% set url2 =  'menu.op6.link'|trans %}
+                                <li><a href="{{ 'http://'~url1[2]~'/'~url2 }}"><em>{{ 'menu.op6.1'|trans }}</em></a></li>
 
                             </ul>
                         </li>
