@@ -2,14 +2,14 @@
  * Created by Luis on 07/07/2017.
  */
 $(window).load(function () {
-    var altura = 1680;
+    var altura = 1900;
     var banMedido = 0;
 
     var alturaElemento = $('#contadores').height();
     var posicionElemento = $('#contadores').offset().top;
 
 
-    var ubicacion = posicionElemento - alturaElemento -200;
+    var ubicacion = posicionElemento - alturaElemento -400; //-200
 
     $(window).scroll(function () {
         //console.log($('#page-top').scrollTop());

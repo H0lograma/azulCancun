@@ -1,3 +1,37 @@
+proyecto hostgator en:
+public_html/azul-nuevo-a/
+htaccess en:
+
+public_html/ .htaccess
+
+contenido .htaccess
+
+<IfModule mod_rewrite.c>
+#RewriteEngine On
+#RewriteCond %{HTTP_HOST} ^(www.)?azulcancunvacations.com$
+#RewriteRule ^(/)?$ azul-nuevo-a/web [L]
+#RewriteEngine On
+#RewriteRule !^azul-nuevo-a/web/en /azul-nuevo-a/web/en%{REQUEST_URI} [L,R=301]
+#RewriteEngine On
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www.)?azulcancunvacations.com$
+RewriteCond %{REQUEST_URI} !^/azul-nuevo-a/web/
+RewriteCond /azul-nuevo-a/web/%{REQUEST_URI} -d
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ /azul-nuevo-a/web/$1/
+
+RewriteCond %{HTTP_HOST} ^(www.)?azulcancunvacations.com$
+RewriteCond %{REQUEST_URI} !^/azul-nuevo-a/web/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /azul-nuevo-a/web/$1
+
+RewriteCond %{HTTP_HOST} ^(www.)?azulcancunvacations.com$
+RewriteRule ^(/)?$ /azul-nuevo-a/web/index.php [L]
+</IfModule>
+
+
 Silex Skeleton
 ==============
 
